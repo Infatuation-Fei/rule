@@ -1,0 +1,6 @@
+payload:
+  - DOMAIN,log-upload-os.mihoyo.com
+  - DOMAIN,autopatchhk.yuanshen.com
+  - DOMAIN,hk4e-sdk-os.mihoyo.com
+  - DOMAIN,hk4e-api-os.mihoyo.com
+  - DOMAIN,hk4e-api-os-static.mihoyo.com
