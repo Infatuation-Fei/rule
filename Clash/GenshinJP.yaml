@@ -5,3 +5,7 @@ payload:
   - DOMAIN,hk4e-api-os.mihoyo.com
   - DOMAIN,hk4e-api-os-static.mihoyo.com
   - DOMAIN,minor-api-os.mihoyo.com
+  - DOMAIN,dispatchosglobal.yuanshen.com
+  - DOMAIN,osusadispatch.yuanshen.com
+  - DOMAIN,overseauspider.yuanshen.com
+  - DOMAIN,webstatic-sea.mihoyo.com
