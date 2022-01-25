@@ -11,4 +11,3 @@ payload:
   - DOMAIN,sdk-os-static.mihoyo.com
   - DOMAIN,oseurodispatch.yuanshen.com
   - DOMAIN,osasiadispatch.yuanshen.com
-  - IP-CIDR,8.211.0.0/24,no-resolve
