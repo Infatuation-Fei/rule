@@ -13,6 +13,7 @@ https://raw.githubusercontent.com/Infatuation-Fei/rule/main/Stash/TikTokUnlock.y
 ![](https://link.jscdn.cn/googledrive/aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xLXFBeTZIckNwWTU4dDh4a0FSNmpGQUZUVkExMlhvcWovdmlldz91c3A9c2hhcmluZw==.jpg)
 
 使用方法2
+
  如果你会编写配置文件，将链接中内容整个复制出来，放到你自己的配置文件中即可
  
 附：
