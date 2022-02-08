@@ -16,8 +16,11 @@ https://raw.githubusercontent.com/Infatuation-Fei/rule/main/Stash/TikTokUnlock.y
 
  如果你会编写配置文件，将链接中内容整个复制出来，放到你自己的配置文件中即可
  
+ 
 附：
+
 软件降级方法：
+
 使用自己的ID抓包
  
 抓包工具：
