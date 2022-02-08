@@ -11,11 +11,11 @@ https://raw.githubusercontent.com/Infatuation-Fei/rule/main/Stash/TikTokUnlock.y
 使用方法1：
 重写规则URL导入,目前mitm导入不进去，只能手动添加，直接打开链接并将链接中的mitm主机名复制出来，通过Stash主页mitm模块添加
 
-![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/IMG_1717.JPG?token=GHSAT0AAAAAABQP6IQZJXVJGQYJMT4Y4SA2YQCOTQQ)
+![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/IMG_1717.JPG)
 
 最终效果图：
 
-![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/IMG_1716.JPG?token=GHSAT0AAAAAABQP6IQZIINC7PHXBCLCLKYAYQCOSUQ)
+![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/IMG_1716.JPG)
 
 使用方法2
 
