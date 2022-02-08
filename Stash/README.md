@@ -15,18 +15,13 @@ Tiktok解锁：
 https://raw.githubusercontent.com/Infatuation-Fei/rule/main/Stash/TikTokUnlock.yaml
 
 使用方法1：
-重写规则URL导入
+重写规则URL导入,目前mitm导入不进去，只能手动添加，直接打开链接并将链接中的mitm主机名复制出来，通过Stash主页mitm模块添加
 
-![](https://link.jscdn.cn/googledrive/aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xXzRQZFltNkFoOEdRZld3Z0NhbTNUVUtFcHhIZDhCNTUvdmlldz91c3A9c2hhcmluZw==.png) 
-
-目前mitm导入不进去，只能手动添加，直接打开链接并将链接中的mitm主机名复制出来，通过Stash主页mitm模块添加
-
-![](https://link.jscdn.cn/googledrive/aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xV0hMVWpqMTRHcVA3RmtWTTZ3SExCZUNYRnlmS1kzQzQvdmlldz91c3A9c2hhcmluZw==.png)
+![](https://link.jscdn.cn/googledrive/aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xVkRoLVE2S3BocTJQUWNKYXd2MmxBcVhxdmVLVHVVVXEvdmlldz91c3A9c2hhcmluZw==.jpg)
 
 最终效果图：
 
-![](https://link.jscdn.cn/googledrive/aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xWVlzOHd0cUtmUVVVQk8wNk5NeWNFSTZiRUcxYzJ0MkQvdmlldz91c3A9c2hhcmluZw==.jpg)
-![](https://link.jscdn.cn/googledrive/aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xb0tiaHBWYVJjN0RnVFVKRFdTNzlEcnhjZHhudDQ1QVAvdmlldz91c3A9c2hhcmluZw==.jpg)
+![](https://link.jscdn.cn/googledrive/aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xLXFBeTZIckNwWTU4dDh4a0FSNmpGQUZUVkExMlhvcWovdmlldz91c3A9c2hhcmluZw==.jpg)
 
 使用方法2
  如果你会编写配置文件，将链接中内容整个复制出来，放到你自己的配置文件中即可
