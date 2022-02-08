@@ -1,4 +1,4 @@
-使用方法：（以Tiktok解锁为例）
+使用方法：（以Tiktok解锁为例，其它的同理）
 
 Tiktok解锁：
 https://raw.githubusercontent.com/Infatuation-Fei/rule/main/Stash/TikTokUnlock.yaml
@@ -6,7 +6,7 @@ https://raw.githubusercontent.com/Infatuation-Fei/rule/main/Stash/TikTokUnlock.y
 使用方法1：
 重写规则URL导入,目前mitm导入不进去，只能手动添加，直接打开链接并将链接中的mitm主机名复制出来，通过Stash主页mitm模块添加
 
-![](https://link.jscdn.cn/googledrive/aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xVkRoLVE2S3BocTJQUWNKYXd2MmxBcVhxdmVLVHVVVXEvdmlldz91c3A9c2hhcmluZw==.jpg)
+![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/IMG_1717.JPG?token=GHSAT0AAAAAABQP6IQZJXVJGQYJMT4Y4SA2YQCOTQQ)
 
 最终效果图：
 
