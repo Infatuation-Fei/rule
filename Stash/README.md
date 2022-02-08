@@ -10,7 +10,7 @@ https://raw.githubusercontent.com/Infatuation-Fei/rule/main/Stash/TikTokUnlock.y
 
 最终效果图：
 
-![](https://link.jscdn.cn/googledrive/aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xLXFBeTZIckNwWTU4dDh4a0FSNmpGQUZUVkExMlhvcWovdmlldz91c3A9c2hhcmluZw==.jpg)
+![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/IMG_1716.JPG?token=GHSAT0AAAAAABQP6IQZIINC7PHXBCLCLKYAYQCOSUQ)
 
 使用方法2
 
