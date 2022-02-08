@@ -16,7 +16,7 @@ https://raw.githubusercontent.com/Infatuation-Fei/rule/main/Stash/TikTokUnlock.y
 
 使用方法1：
 重写规则URL导入
-￼
+![](https://link.jscdn.cn/googledrive/aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL2ZpbGUvZC8xXzRQZFltNkFoOEdRZld3Z0NhbTNUVUtFcHhIZDhCNTUvdmlldz91c3A9c2hhcmluZw==.png) 
 目前mitm导入不进去，只能手动添加，将链接中的mitm主机名复制出来，通过Stash主页mitm模块添加
 ￼
 最终效果图：
