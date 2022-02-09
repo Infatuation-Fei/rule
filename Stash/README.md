@@ -1,15 +1,8 @@
-目前已有：
-
-YouTube去广告：
-https://raw.githubusercontent.com/Infatuation-Fei/rule/main/Stash/YouTubeAdblock.yaml
-
-Tiktok解锁：
-https://raw.githubusercontent.com/Infatuation-Fei/rule/main/Stash/TikTokUnlock.yaml
 
 使用方法：（以Tiktok解锁为例，其它的同理）
 
 使用方法1：
-重写规则URL导入,目前mitm导入不进去，只能手动添加，直接打开链接并将链接中的mitm主机名复制出来，通过Stash主页mitm模块添加
+重写规则URL导入,目前mitm导入不进去，只能手动添加，直接打开链接 [Tiktok解锁](https://raw.githubusercontent.com/Infatuation-Fei/rule/main/Stash/TikTokUnlock.yaml)并将链接中的mitm主机名复制出来，通过Stash主页mitm模块添加
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/IMG_1717.JPG)
 
