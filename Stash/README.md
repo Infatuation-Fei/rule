@@ -2,7 +2,14 @@
 使用方法：（以Tiktok解锁为例，其它的同理）
 
 使用方法1：
-重写规则URL导入,目前mitm导入不进去，只能手动添加，直接打开链接 [Tiktok解锁](https://raw.githubusercontent.com/Infatuation-Fei/rule/main/Stash/TikTokUnlock.yaml)并将链接中的mitm主机名复制出来，通过Stash主页mitm模块添加
+
+获取raw链接：
+
+![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/tiktokyanshi.jpg)
+
+![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/Tiktokyanshi2.jpg)
+
+通过软件主页重写规则，使用URL导入raw链接,由于目前mitm主机名导入不进去，只能手动添加，直接打开raw链接 [Tiktok解锁](https://raw.githubusercontent.com/Infatuation-Fei/rule/main/Stash/TikTokUnlock.yaml)并将链接中的mitm主机名复制出来，通过Stash主页mitm模块添加
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/IMG_1717.JPG)
 
