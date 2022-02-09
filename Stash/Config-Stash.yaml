@@ -69,135 +69,163 @@ proxy-providers:
 proxies:
 
             
+
 proxy-groups:
-  - name: 🚀 手动切换
+  - name: 手动切换
     type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png
     use:
-      - All
-  - name: 🎬 YouTube
+      - All      
+  - name: YouTube
     type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
     proxies:
-      - 🚀 手动切换
-      - 🇭🇰 香港节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇨🇳 台湾节点
+      - 手动切换
+      - 香港节点
+      - 日本节点
+      - 美国节点
+      - 台湾节点
       - DIRECT
-  - name: 🎬 NETFLIX
+  - name: NETFLIX
     type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
     proxies:
-      - 🚀 手动切换
-      - 🇭🇰 香港节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇨🇳 台湾节点
+      - 手动切换
+      - 香港节点
+      - 日本节点
+      - 美国节点
+      - 台湾节点
       - DIRECT
-  - name: 🎬 Disney+
+  - name: Disney+
     type: select
+    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/DisneyPlus.png
     proxies:
-      - 🚀 手动切换
-      - 🇭🇰 香港节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇨🇳 台湾节点
+      - 手动切换
+      - 香港节点
+      - 日本节点
+      - 美国节点
+      - 台湾节点
       - DIRECT
-  - name: 🎬 巴哈姆特
+  - name: 巴哈姆特
     type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bahamut.png
     proxies:
-      - 🇨🇳 台湾节点
-      - 🇭🇰 香港节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🚀 手动切换
+      - 台湾节点
+      - 香港节点
+      - 日本节点
+      - 美国节点
+      - 手动切换
       - DIRECT
-  - name: 🆎 AdBlock
+  - name: AdBlock
     type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png
     proxies:
       - REJECT
-      - 🚀 手动切换
-  - name: 🌏 国外网站
+      - 手动切换
+  - name: PayPal
     type: select
-    proxies:
-      - 🚀 手动切换
-      - 🇭🇰 香港节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇨🇳 台湾节点
-      - DIRECT
-  - name: 🍎 苹果服务
-    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/PayPal.png
     proxies:
       - DIRECT
-      - 🚀 手动切换
-      - 🇭🇰 香港节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇨🇳 台湾节点
-  - name: 🧩 微软服务
+      - 手动切换
+      - 香港节点
+      - 日本节点
+      - 美国节点
+      - 台湾节点
+  - name: 国外网站
     type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
+    proxies:
+      - 手动切换
+      - 香港节点
+      - 日本节点
+      - 美国节点
+      - 台湾节点
+      - DIRECT
+  - name: 苹果服务
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
+    proxies:
+      - 手动切换
+      - DIRECT
+      - 香港节点
+      - 日本节点
+      - 美国节点
+      - 台湾节点
+  - name: 微软服务
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
+    proxies:
+      - 手动切换
+      - DIRECT
+      - 香港节点
+      - 日本节点
+      - 美国节点
+      - 台湾节点
+  - name: 哔哩哔哩
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili_3.png
     proxies:
       - DIRECT
-      - 🚀 手动切换
-      - 🇭🇰 香港节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇨🇳 台湾节点
-  - name: 🎬 哔哩哔哩
+      - 手动切换
+      - 香港节点
+      - 日本节点
+      - 美国节点
+      - 台湾节点
+  - name: 游戏平台
     type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png
+    proxies:
+      - 手动切换
+      - DIRECT
+      - 香港节点
+      - 日本节点
+      - 美国节点
+      - 台湾节点
+  - name: 国内网站
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China_Map.png
     proxies:
       - DIRECT
-      - 🚀 手动切换
-      - 🇭🇰 香港节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇨🇳 台湾节点
-  - name: 🎮 游戏平台
+      - 手动切换
+      - 香港节点
+      - 日本节点
+      - 美国节点
+      - 台湾节点
+  - name: 漏网之鱼
     type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
     proxies:
-      - 🚀 手动切换
+      - 手动切换
       - DIRECT
-      - 🇭🇰 香港节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇨🇳 台湾节点
-  - name: 🌏 国内网站
+      - 香港节点
+      - 日本节点
+      - 美国节点
+      - 台湾节点
+  - name: 香港节点
     type: select
-    proxies:
-      - DIRECT
-      - 🚀 手动切换
-      - 🇭🇰 香港节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇨🇳 台湾节点
-  - name: 🐟 漏网之鱼
-    type: select
-    proxies:
-      - 🚀 手动切换
-      - DIRECT
-      - 🇭🇰 香港节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇨🇳 台湾节点
-  - name: 🇭🇰 香港节点
-    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
     use:
       - HK
     proxies:
       - DIRECT
-  - name: 🇯🇵 日本节点
+  - name: 日本节点
     type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
     use:
       - JP
     proxies:
       - DIRECT
-  - name: 🇨🇳 台湾节点
+  - name: 台湾节点
     type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
     use:
       - TW
     proxies:
       - DIRECT
-  - name: 🇺🇲 美国节点
+  - name: 美国节点
     type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
     use:
       - US
     proxies:
@@ -285,17 +313,17 @@ rule-providers:
 
 
 rules:
-  - RULE-SET,adblock,🆎 AdBlock
-  - RULE-SET,YouTube,🎬 YouTube
-  - RULE-SET,Netflix,🎬 NETFLIX
-  - RULE-SET,Disney,🎬 Disney+
-  - RULE-SET,Bahamut,🎬 巴哈姆特
-  - RULE-SET,Apple,🍎 苹果服务
-  - RULE-SET,Microsoft,🧩 微软服务
-  - RULE-SET,BiliBili,🎬 哔哩哔哩
-  - RULE-SET,Game,🎮 游戏平台
-  - RULE-SET,Global_Classical,🌏 国外网站
-  - RULE-SET,China,🌏 国内网站
+  - RULE-SET,adblock,AdBlock
+  - RULE-SET,YouTube,YouTube
+  - RULE-SET,Netflix,NETFLIX
+  - RULE-SET,Disney,Disney+
+  - RULE-SET,Bahamut,巴哈姆特
+  - RULE-SET,Apple,苹果服务
+  - RULE-SET,Microsoft,微软服务
+  - RULE-SET,BiliBili,哔哩哔哩
+  - RULE-SET,Game,游戏平台
+  - RULE-SET,Global_Classical,国外网站
+  - RULE-SET,China,国内网站
   - IP-CIDR,192.168.0.0/16,DIRECT
   - IP-CIDR,10.0.0.0/8,DIRECT
   - IP-CIDR,172.16.0.0/12,DIRECT
@@ -305,5 +333,5 @@ rules:
   - IP-CIDR,fe80::/10,DIRECT
   - IP-CIDR,119.28.28.28/32,DIRECT
   - IP-CIDR,182.254.116.0/24,DIRECT
-  - GEOIP,CN,🌏 国内网站
-  - MATCH,🐟 漏网之鱼
+  - GEOIP,CN,国内网站
+  - MATCH,漏网之鱼
