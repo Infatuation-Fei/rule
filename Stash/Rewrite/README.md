@@ -11,9 +11,9 @@
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/Tiktokyanshi2.jpg)
 
-通过软件主页重写规则，使用URL导入raw链接,由于目前mitm主机名导入不进去，只能手动添加，直接打开raw链接 [Tiktok解锁](https://raw.githubusercontent.com/Infatuation-Fei/rule/main/Stash/Rewrite/TikTokUnlock.yaml)并将链接中的mitm主机名复制出来，通过Stash主页mitm模块添加
+通过软件主页重写规则与MITM模块导入，将获取的raw链接使用URL导入
 
-![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/IMG_1717.JPG)
+![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/Tiktokyanshi0.jpg)
 
 最终效果图：
 
