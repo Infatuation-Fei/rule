@@ -23,6 +23,10 @@
 
  如果你会编写配置文件，将链接中内容整个复制出来，放到你自己的配置文件中即可
  
+ 可以像图上一样整段放到最后面，也可以插入中间，注意不要破坏掉其它字段即可
+ 
+ ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/Tiktokyanshi3.jpg)
+ 
  
 附：
 
