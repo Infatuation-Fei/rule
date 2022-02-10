@@ -11,7 +11,7 @@
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/Tiktokyanshi2.jpg)
 
-通过软件主页重写规则与MITM模块导入，将获取的raw链接使用URL导入
+分别通过软件主页重写规则与MITM模块将获取的raw链接使用URL导入
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/Tiktokyanshi0.jpg)
 
