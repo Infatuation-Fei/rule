@@ -11,6 +11,10 @@
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/Tiktokyanshi2.jpg)
 
+点击Raw(手机上点击右上三个点然后View Raw)后进入链接，把链接复制出来即可
+
+(如果您使用iOS设备点击View Raw后并不会进入链接，而是直接下载文件的话请尝试更换浏览器，我目前使用Safari,Chrome和夸克，发现只有夸克浏览器会直接进去yaml的raw链接)
+
 分别通过软件主页重写规则与MITM模块将获取的raw链接使用URL导入
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/Tiktokyanshi0.jpg)
