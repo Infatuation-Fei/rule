@@ -78,13 +78,15 @@ proxy-groups:
       - All
     proxies:
       - 自动选择
+
   - name: 自动选择
     type: url-test
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png
     use: 
        - All
     url: "http://www.gstatic.com/generate_204"
-    interval: 300      
+    interval: 300
+      
   - name: YouTube
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
@@ -95,6 +97,7 @@ proxy-groups:
       - 美国节点
       - 台湾节点
       - DIRECT
+
   - name: NETFLIX
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
@@ -105,6 +108,7 @@ proxy-groups:
       - 美国节点
       - 台湾节点
       - DIRECT
+
   - name: Disney+
     type: select
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/DisneyPlus.png
@@ -115,6 +119,7 @@ proxy-groups:
       - 美国节点
       - 台湾节点
       - DIRECT
+
   - name: 巴哈姆特
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bahamut.png
@@ -125,12 +130,14 @@ proxy-groups:
       - 美国节点
       - 手动切换
       - DIRECT
+
   - name: AdBlock
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png
     proxies:
       - REJECT
       - 手动切换
+
   - name: PayPal
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/PayPal.png
@@ -141,6 +148,7 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 台湾节点
+
   - name: 国外网站
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
@@ -151,6 +159,7 @@ proxy-groups:
       - 美国节点
       - 台湾节点
       - DIRECT
+
   - name: 苹果服务
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
@@ -161,6 +170,7 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 台湾节点
+
   - name: 微软服务
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
@@ -171,6 +181,7 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 台湾节点
+
   - name: 哔哩哔哩
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili_3.png
@@ -181,6 +192,7 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 台湾节点
+
   - name: 游戏平台
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png
@@ -191,6 +203,7 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 台湾节点
+
   - name: 国内网站
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China_Map.png
@@ -201,6 +214,7 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 台湾节点
+
   - name: 漏网之鱼
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
@@ -211,6 +225,7 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 台湾节点
+
   - name: 香港节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
@@ -218,6 +233,7 @@ proxy-groups:
       - HK
     proxies:
       - DIRECT
+
   - name: 日本节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
@@ -225,6 +241,7 @@ proxy-groups:
       - JP
     proxies:
       - DIRECT
+
   - name: 台湾节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
@@ -232,6 +249,7 @@ proxy-groups:
       - TW
     proxies:
       - DIRECT
+
   - name: 美国节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
