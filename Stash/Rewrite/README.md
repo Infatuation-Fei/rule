@@ -2,9 +2,9 @@
 ===
 
 （以Tiktok解锁为例，其它的同理）
------
-  - 方法1：
 
+  方法1：
+  ----
 ① 获取raw链接：
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/tiktokyanshi.jpg)
