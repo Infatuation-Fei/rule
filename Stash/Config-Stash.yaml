@@ -75,7 +75,16 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png
     use:
-      - All      
+      - All
+    proxies:
+      - 自动选择
+  - name: "自动选择"
+    type: url-test
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png
+    use: 
+       - All
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300      
   - name: YouTube
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
