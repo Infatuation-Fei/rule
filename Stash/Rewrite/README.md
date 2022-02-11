@@ -3,7 +3,7 @@
 
 （以Tiktok解锁为例，其它的同理）
 
-1. 方法1：
+方法1：
 
 ① 获取raw链接：
 
@@ -23,7 +23,7 @@
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/IMG_1716.JPG)
 
-2. 方法2
+方法2
 
  如果你会编写配置文件，将链接中内容整个复制出来，放到你自己的配置文件中即可
  
