@@ -78,7 +78,7 @@ proxy-groups:
       - All
     proxies:
       - 自动选择
-  - name: "自动选择"
+  - name: 自动选择
     type: url-test
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png
     use: 
