@@ -12,6 +12,8 @@
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/Config-Stash.PNG)
 
+报错处理
+----
 如果出现以下报错
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/cuowu.jpg)
