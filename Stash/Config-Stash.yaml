@@ -46,7 +46,7 @@ proxy-providers:
   #日本节点
   JP:
     type: http
-    url: "https://api.v1.mk/sub?target=clash&url=你的订阅链接&list=true&udp=true&include=(?=.*(日|JP|(?i)Japan))"
+    url: "https://api.v1.mk/sub?target=clash&url=你的订阅链接&list=true&udp=true&include=(?=.*(日|东京|JP|(?i)Japan))"
     interval: 3600
     path: ./jp.yaml
     health-check:
