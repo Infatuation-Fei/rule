@@ -1,3 +1,5 @@
+name: 去广告
+
 http:
   mitm:
     - "*-.amemv.com"
