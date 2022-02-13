@@ -7,9 +7,9 @@
   ----
 ① 获取raw链接：
 
-![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/tiktokyanshi.jpg)
+![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/jiaoxue.png)
 
-![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/Tiktokyanshi2.jpg)
+![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/jiaoxue2.png)
 
 点击Raw(手机上点击右上三个点然后View Raw)后进入链接，把链接复制出来即可
 
