@@ -23,11 +23,11 @@
 
   方法2
   -----
- 如果你会编写配置文件，将链接中内容整个复制出来，放到你自己的配置文件中即可
+ 如果你会编写配置文件，将链接中http及后面的内容整个复制出来，放到你自己的配置文件中即可
  
  可以像图上一样整段放到最后面，也可以插入中间，注意不要破坏掉其它字段即可
  
- ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/Tiktokyanshi3.jpg)
+ ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/jiaoxue3.jpg)
  
  目前软件主页的mitm和重写模块与配置文件是独立的，所以放在配置文件里的重写规则是不会在首页显示的，首页添加的也不会写入配置文件。
  
