@@ -1,3 +1,6 @@
+name: YouTube去广告
+desc: 去除YouTube视频广告
+
 http:
   mitm:
     - "-redirector*.googlevideo.com"
