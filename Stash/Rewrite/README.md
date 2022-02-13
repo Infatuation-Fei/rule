@@ -29,6 +29,8 @@
  
  ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/jiaoxue3.jpg)
  
+ 再添加更多的规则时仅需要再将其它的mitm和rewrite复制出来添加上即可。
+ 
  目前软件主页的mitm和重写模块与配置文件是独立的，所以放在配置文件里的重写规则是不会在首页显示的，首页添加的也不会写入配置文件。
  
 附
