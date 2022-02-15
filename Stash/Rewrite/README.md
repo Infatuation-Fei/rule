@@ -5,7 +5,7 @@
 
   方法1
   ----
-① 获取raw链接：
+获取raw链接：
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/jiaoxue.png)
 
@@ -13,15 +13,21 @@
 
 点击Raw(手机上点击右上三个点然后View Raw)后进入链接，把链接复制出来即可
 
-② 分别通过软件主页重写规则与MITM模块将获取的raw链接使用URL导入
+通过首页覆写安装即可
+
+![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/fuxie.jpg)
+
+  方法2
+----
+① 分别通过软件主页重写规则与MITM模块将获取的raw链接使用URL导入
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/Tiktokyanshi0.jpg)
 
-③ 最终效果图：
+② 效果图：
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/IMG_1716.JPG)
 
-  方法2
+  方法3
   -----
  如果你会编写配置文件，将链接中http及后面的内容整个复制出来，放到你自己的配置文件中即可
  
