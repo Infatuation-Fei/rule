@@ -1,4 +1,5 @@
 name: 去广告
+desc: 重写去广告
 
 http:
   mitm:
