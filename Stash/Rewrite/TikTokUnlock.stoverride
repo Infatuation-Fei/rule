@@ -1,5 +1,5 @@
 name: TikTok解锁
-desc: 需要安装Tiktok21.1.0版本，其它版本自测，rewrite第一行JP为观看的地区，默认JP(日本)，可自行修改为其它地区，例:KR(韩国),UK(英国),US(美国),TW(台湾)...
+desc: 需要安装Tiktok21.1.0版本，其它版本自测，rewrite第一行JP为观看的地区，默认JP(日本)，可自行修改为其它地区
 
 http:
   mitm:
