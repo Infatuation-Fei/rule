@@ -247,7 +247,6 @@ http:
     - "ddrk.me"
     - "dict-mobile.iciba.com"
     - "dili.bdatu.com"
-    - "dimg04.c-ctrip.com"
     - "discuz.gtimg.cn"
     - "dl.app.gtja.com"
     - "dmhy.anoneko.com"
@@ -978,7 +977,6 @@ http:
     - ^https?:\/\/ddrk\.me\/wp-content\/plugins\/advanced-floating-content-lite\/public\/images\/close\.png - reject
     - ^https?:\/\/dict-mobile\.iciba\.com\/interface\/index\.php\?.+?(c=ad|collectFeedsAdShowCount|KSFeedsAdCardViewController) - reject
     - ^https?:\/\/dili\.bdatu\.com\/jiekou\/ad\/ - reject
-    - ^https?:\/\/dimg04\.c-ctrip\.com\/images\/\w+(_\d{4}){2} - reject
     - ^https?:\/\/discuz\.gtimg\.cn\/cloud\/scripts\/discuz_tips\.js - reject
     - ^https?:\/\/dl.app.gtja.com/.+\d+.jpg$ - reject
     - ^https?:\/\/dl\.app.gtja\.com\/.+?\d+\.jpg$ - reject
@@ -1218,7 +1216,7 @@ http:
     - ^https?:\/\/p\d\.meituan\.net\/wmbanner\/[A-Za-z0-9]+\.jpg - reject
     - ^https?:\/\/p\d{1}\.meituan\.net\/(adunion|display|mmc|wmbanner)\/ - reject
     - ^https?:\/\/pagead2\.googlesyndication\.com\/pagead\/ - reject
-    - ^https?:\/\/pan-api\.bitqiu\.com\/activity\/(getPromoteGuide|get-List) - reject
+    - ^https?:\/\/pan-api\.bitqiu\.com\/activity\/(getPromoteGuide|getUrlList) - reject
     - ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry - reject
     - ^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/adx - reject
     - ^https?:\/\/paopao\w?.qiyipic.com - reject
@@ -1234,7 +1232,7 @@ http:
     - ^https?:\/\/player\.hoge\.cn\/advertisement\.swf - reject
     - ^https?:\/\/pocketuni\.net\/\?app=api&mod=Message&act=ad - reject
     - ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/ads\/ - reject
-    - ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/configs\/(splash_ad|ad_-s) - reject
+    - ^https?:\/\/portal-xunyou\.qingcdn\.com\/api\/v\d\/ios\/configs\/(splash_ad|ad_urls) - reject
     - ^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite - reject
     - ^https?:\/\/prom\.mobile\.gome\.com\.cn\/mobile\/promotion\/promscms\/sale\w+\.jsp - reject
     - ^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/ - reject
