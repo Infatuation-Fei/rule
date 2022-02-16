@@ -19,6 +19,9 @@
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/fuxie.jpg)
 
+- 注：
+
+一般推荐使用此方法导入，简单方便，但由于覆写导入的内容无法修改，像Tiktok解锁修改观看地区的话需要修改重写规则，建议使用方法2，方法2导入后可自行修改重写规则内容，方便tiktok换区
   方法2
 ----
 ① 分别通过软件主页重写规则与MITM模块将获取的raw链接使用URL导入
