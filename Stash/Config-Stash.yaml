@@ -273,7 +273,7 @@ proxy-groups:
       
   - name: 韩国节点
     type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Korea.png
     use:
       - KR
     proxies:
