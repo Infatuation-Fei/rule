@@ -1,3 +1,6 @@
+name: 去广告规则
+desc: 分流去广告
+
 proxy-groups:
   - name: AdBlock
     type: select
@@ -16,4 +19,4 @@ rule-providers:
     interval: 86400
     
 rules:
-  - RULE-SET,adblock,AdBlock
+  - RULE-SET,adblock,REJECT
