@@ -35,4 +35,4 @@
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/shan.jpg)
 
-以上为筛选不到时的处理方法，以JP为例，如果是TW/US等筛选不到也是同样的处理方法，删除Proxy-Providers里一整段与策略组使用的use引用就可以了
+以上为筛选不到时的处理方法，以JP为例，如果是TW/US等筛选不到也是同样的处理方法，删除`Proxy-Providers`里一整段与策略组使用的`use引用`就可以了
