@@ -15,7 +15,7 @@
 
 后续更新节点通过开启后策略组左上角更新外部资源即可
 
-![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/Config1.JPG)
+![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/Config1.jpg)
 
 - 策略展示
 
