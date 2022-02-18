@@ -1,6 +1,7 @@
 已有内容
 ==
-- Rewrite(重写)
+- Rewrite(重写规则)
+- Rule(分流规则)
 - Script(脚本)
 
 配置模板
