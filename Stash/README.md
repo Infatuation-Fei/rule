@@ -33,7 +33,6 @@
 
 是因为你的订阅链接里筛选不到JP(日本)节点，删掉JP的信息就可以了，即以下图上两处：
 
-![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/shan1.jpg)
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/shan.jpg)
 
 以上为筛选不到时的处理方法，以JP为例，如果是TW/US等筛选不到也是同样的处理方法，删除Proxy-Providers里一整段与策略组使用的use引用就可以了
