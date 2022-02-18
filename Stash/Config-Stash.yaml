@@ -54,6 +54,17 @@ proxy-providers:
       interval: 600
       url: http://www.gstatic.com/generate_204
 
+  #韩国节点
+  KR:
+    type: http
+    url: "https://api.v1.mk/sub?target=clash&url=你的订阅链接&list=true&udp=true&include=(?=.*(韩|KR|(?i)Korea))"
+    interval: 3600
+    path: ./kr.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+      
  #台湾节点
   TW:
     type: http
@@ -94,6 +105,7 @@ proxy-groups:
       - 手动切换
       - 香港节点
       - 日本节点
+      - 韩国节点
       - 美国节点
       - 台湾节点
       - DIRECT
@@ -105,6 +117,7 @@ proxy-groups:
       - 手动切换
       - 香港节点
       - 日本节点
+      - 韩国节点
       - 美国节点
       - 台湾节点
       - DIRECT
@@ -116,6 +129,7 @@ proxy-groups:
       - 手动切换
       - 香港节点
       - 日本节点
+      - 韩国节点
       - 美国节点
       - 台湾节点
       - DIRECT
@@ -127,6 +141,7 @@ proxy-groups:
       - 台湾节点
       - 香港节点
       - 日本节点
+      - 韩国节点
       - 美国节点
       - 手动切换
       - DIRECT
@@ -146,6 +161,7 @@ proxy-groups:
       - 手动切换
       - 香港节点
       - 日本节点
+      - 韩国节点
       - 美国节点
       - 台湾节点
 
@@ -156,6 +172,7 @@ proxy-groups:
       - 手动切换
       - 香港节点
       - 日本节点
+      - 韩国节点
       - 美国节点
       - 台湾节点
       - DIRECT
@@ -168,6 +185,7 @@ proxy-groups:
       - DIRECT
       - 香港节点
       - 日本节点
+      - 韩国节点
       - 美国节点
       - 台湾节点
 
@@ -179,6 +197,7 @@ proxy-groups:
       - DIRECT
       - 香港节点
       - 日本节点
+      - 韩国节点
       - 美国节点
       - 台湾节点
 
@@ -195,6 +214,7 @@ proxy-groups:
       - DIRECT
       - 手动切换
       - 香港节点
+      - 韩国节点
       - 日本节点
       - 美国节点
       - 台湾节点
@@ -207,6 +227,7 @@ proxy-groups:
       - DIRECT
       - 香港节点
       - 日本节点
+      - 韩国节点
       - 美国节点
       - 台湾节点
 
@@ -218,6 +239,7 @@ proxy-groups:
       - 手动切换
       - 香港节点
       - 日本节点
+      - 韩国节点
       - 美国节点
       - 台湾节点
 
@@ -229,6 +251,7 @@ proxy-groups:
       - DIRECT
       - 香港节点
       - 日本节点
+      - 韩国节点
       - 美国节点
       - 台湾节点
 
@@ -247,7 +270,15 @@ proxy-groups:
       - JP
     proxies:
       - DIRECT
-
+      
+  - name: 韩国节点
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
+    use:
+      - KR
+    proxies:
+      - DIRECT
+      
   - name: 台湾节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
