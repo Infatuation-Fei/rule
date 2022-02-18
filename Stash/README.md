@@ -9,13 +9,13 @@
 ---
 下载`Config-Stash.yaml`导入，然后打开编辑，根据内容提示替换链接即可，一定要注意不要粘贴多余的空格之类的。
 
-本配置为自己写的自用配置改成的模板，未必适合所有人，请酌情使用.
-
-策略组已使用引用ICON功能，需要Stash 1.3.1 Build 147+版本，低于这个版本不显示图标
+本配置为自己写的自用配置改成的模板，未必适合所有人，请酌情使用.使用请详细阅读以下说明
 
 - 策略展示
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/Config.PNG)
+
+策略组已使用引用ICON功能，需要Stash 1.3.1 Build 147+版本，低于这个版本不显示图标
 
 - 更新节点
 
