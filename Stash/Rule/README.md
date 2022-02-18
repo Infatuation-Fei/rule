@@ -16,4 +16,4 @@
 
 - 注：
 
-由于目前覆写不支持策略组，导入其它分流规则相对繁琐，所以仅写了一份去广告分流，若配置中已包含去广告分流请不要再添加此分流，且此规则以包含于我的配置模板[Config-Stash](https://github.com/Infatuation-Fei/rule/blob/main/Stash/Config-Stash.yaml)中,避免规则重复
+由于目前覆写不支持策略组，导入其它分流规则相对繁琐，所以仅写了一份去广告分流，若配置中已包含去广告分流请不要再添加此分流，且此规则以包含于我的配置模板[Config-Stash](https://github.com/Infatuation-Fei/rule/blob/main/Stash/Config-Stash.yaml)中，避免规则重复
