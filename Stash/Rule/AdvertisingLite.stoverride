@@ -1,22 +1,13 @@
 name: 去广告规则
 desc: 分流去广告
 
-proxy-groups:
-  - name: AdBlock
-    type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png
-    proxies:
-      - REJECT
-      - 手动切换
-
 rule-providers:
-
-  adblock:
+  adlite:
     type: http
     behavior: classical
     url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AdvertisingLite/AdvertisingLite_Classical.yaml"
-    path: ./ruleset/Advertising_Classical.yaml
+    path: ./ruleset/Adlite.yaml
     interval: 86400
     
 rules:
-  - RULE-SET,adblock,REJECT
+  - RULE-SET,adlite,REJECT
