@@ -1,0 +1,17 @@
+name: Youtube Subtrans
+desc: Youtube字幕自动翻译
+
+http:
+  mitm:
+    - "www.youtube.com"
+  script:
+    - match: https:\/\/www.youtube.com\/api\/timedtext.+
+      name: ys
+      type: request
+      require-body: true
+      timeout: 120
+      
+script-providers:
+  ys:
+    url: https://raw.githubusercontent.com/Neurogram-R/Surge/master/YouTube-Subtrans.js
+    interval: 3600
