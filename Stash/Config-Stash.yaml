@@ -103,6 +103,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
     proxies:
       - 手动切换
+      - 自动选择
       - 香港节点
       - 日本节点
       - 韩国节点
@@ -115,6 +116,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
     proxies:
       - 手动切换
+      - 自动选择
       - 香港节点
       - 日本节点
       - 韩国节点
@@ -127,6 +129,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/DisneyPlus.png
     proxies:
       - 手动切换
+      - 自动选择
       - 香港节点
       - 日本节点
       - 韩国节点
@@ -143,6 +146,7 @@ proxy-groups:
       - 日本节点
       - 韩国节点
       - 美国节点
+      - 自动选择
       - 手动切换
       - DIRECT
 
@@ -159,6 +163,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 手动切换
+      - 自动选择
       - 香港节点
       - 日本节点
       - 韩国节点
@@ -170,6 +175,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
     proxies:
       - 手动切换
+      - 自动选择
       - 香港节点
       - 日本节点
       - 韩国节点
@@ -182,6 +188,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
     proxies:
       - 手动切换
+      - 自动选择
       - DIRECT
       - 香港节点
       - 日本节点
@@ -194,6 +201,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
     proxies:
       - 手动切换
+      - 自动选择
       - DIRECT
       - 香港节点
       - 日本节点
@@ -212,6 +220,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili_3.png
     proxies:
       - DIRECT
+      - 自动选择
       - 手动切换
       - 香港节点
       - 韩国节点
@@ -224,6 +233,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png
     proxies:
       - 手动切换
+      - 自动选择
       - DIRECT
       - 香港节点
       - 日本节点
@@ -237,6 +247,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 手动切换
+      - 自动选择
       - 香港节点
       - 日本节点
       - 韩国节点
@@ -248,6 +259,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
     proxies:
       - 手动切换
+      - 自动选择
       - DIRECT
       - 香港节点
       - 日本节点
