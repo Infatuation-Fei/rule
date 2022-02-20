@@ -74,8 +74,9 @@ proxy-groups:
     type: select
     use:
       - All
-
-  - name: ♻️ 自动选择
+    proxies:
+      - 🛫 自动选择
+  - name: 🛫 自动选择
     type: url-test
     use: 
        - All
