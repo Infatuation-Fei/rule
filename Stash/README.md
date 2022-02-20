@@ -17,7 +17,7 @@
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/celve.jpg)
 
-策略组已使用引用ICON功能，需要Stash 1.3.1 Build 147+版本，低于这个版本不显示图标
+策略组已使用引用ICON功能，ICON(图标)采用[Koolson的Qure Color](https://github.com/Koolson/Qure/tree/master/IconSet/Color)，需要Stash 1.3.1 Build 147+版本，低于这个版本不显示图标
 
 - 更新节点
 
