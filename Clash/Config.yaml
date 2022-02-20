@@ -87,106 +87,129 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 手动切换
+      - 🛫 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇨🇳 台湾节点
       - DIRECT
+
   - name: 🎬 NETFLIX
     type: select
     proxies:
       - 🚀 手动切换
+      - 🛫 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇨🇳 台湾节点
       - DIRECT
+
   - name: 🎬 Disney+
     type: select
     proxies:
       - 🚀 手动切换
+      - 🛫 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇨🇳 台湾节点
       - DIRECT
+
   - name: 🎬 巴哈姆特
     type: select
     proxies:
       - 🇨🇳 台湾节点
+      - 🛫 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🚀 手动切换
       - DIRECT
+
   - name: 🆎 AdBlock
     type: select
     proxies:
       - REJECT
       - 🚀 手动切换
+
   - name: 🌏 国外网站
     type: select
     proxies:
       - 🚀 手动切换
+      - 🛫 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇨🇳 台湾节点
       - DIRECT
+
   - name: 🍎 苹果服务
     type: select
     proxies:
       - DIRECT
       - 🚀 手动切换
+      - 🛫 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇨🇳 台湾节点
+
   - name: 🧩 微软服务
     type: select
     proxies:
       - DIRECT
       - 🚀 手动切换
+      - 🛫 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇨🇳 台湾节点
+
   - name: 🎶 网易音乐
     type: select
     proxies:
       - DIRECT
+
   - name: 🎬 哔哩哔哩
     type: select
     proxies:
       - DIRECT
       - 🚀 手动切换
+      - 🛫 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇨🇳 台湾节点
+
   - name: 🎮 游戏平台
     type: select
     proxies:
       - 🚀 手动切换
       - DIRECT
+      - 🛫 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇨🇳 台湾节点
+
   - name: 🌏 国内网站
     type: select
     proxies:
       - DIRECT
       - 🚀 手动切换
+      - 🛫 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇨🇳 台湾节点
+
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🚀 手动切换
       - DIRECT
+      - 🛫 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
