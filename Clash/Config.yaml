@@ -74,6 +74,14 @@ proxy-groups:
     type: select
     use:
       - All
+
+  - name: ♻️ 自动选择
+    type: url-test
+    use: 
+       - All
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+
   - name: 🎬 YouTube
     type: select
     proxies:
