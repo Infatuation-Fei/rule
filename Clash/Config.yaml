@@ -142,7 +142,7 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
       - 🇨🇳 台湾节点
-    - name: 🎶 网易音乐
+  - name: 🎶 网易音乐
     type: select
     proxies:
       - DIRECT
