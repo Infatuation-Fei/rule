@@ -4,7 +4,12 @@ Stash 1.4.0 Bulid159为首个支持使用JavaScript脚本改写HTTP(S)请求的�
 
 由于raw链接被墙，请开启代理后导入
 
-**经测试目前`ADWX.stoverride`可用，其余脚本目前均不支持，建议更新支持后再导入**
+目前可用
+===
+- `ADWX.stoverride`
+- `KuWoMusic.stoverride`
+
+**经测试目前仅以上几个可用，其余脚本目前均不支持，建议更新支持后再导入**
 
 使用方法
 ===
