@@ -1,0 +1,24 @@
+name: 酷我音乐解锁
+desc: 解锁酷我音乐会员
+
+http:
+  mitm:
+    - "*.kuwo.cn"
+  script:
+    - match: ^http://(.+).kuwo.cn(/v2/api/user/info|/a.p|/vip/v2/user/vip)
+      name: kuwod
+      type: response
+      require-body: true
+      timeout: 10
+    - match: ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver.+$
+      name: kuwod
+      type: request
+      require-body: true
+      timeout: 10  
+script-providers:
+  kuwo:
+    url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js
+    interval: 3600
+  kuwod:
+    url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js
+    interval: 3600
