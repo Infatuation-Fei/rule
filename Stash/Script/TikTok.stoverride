@@ -1,0 +1,14 @@
+name: TikTok
+desc: 解锁地区限制，建议使用Tiktok21.1.0版本
+
+http:
+  mitm:
+    - "*.tiktokv.com"
+    - "*.byteoversea.com"
+    - "*.tik-tokapi.com"
+  rewrite:
+    # 第一行JP为观看的地区，默认JP(日本)，可自行修改为其它地区
+    - (?<=_region=)CN(?=&) JP 307
+    - (?<=&mcc_mnc=)4 2 307
+    - (^h.+v5\/)(.+) $1 302
+    - (?<=eme\/v)2(?=\/f\w{2}d\/\?.*) 1 302
