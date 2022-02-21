@@ -1,5 +1,5 @@
-name: Netflix评分
-desc: Netflix视频加入豆瓣、imdb评分
+name: NetFlix评分
+desc: NetFlix视频加入豆瓣、imdb评分
 
 http:
   mitm:
