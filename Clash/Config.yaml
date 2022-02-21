@@ -103,9 +103,9 @@ proxy-groups:
     use:
       - All
     proxies:
-      - 🛫 自动选择
+      - ✈️ 自动选择
 
-  - name: 🛫 自动选择
+  - name: ✈️ 自动选择
     type: url-test
     use: 
        - All
@@ -116,7 +116,7 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 手动切换
-      - 🛫 自动选择
+      - ✈️ 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
@@ -127,7 +127,7 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 手动切换
-      - 🛫 自动选择
+      - ✈️ 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
@@ -138,7 +138,7 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 手动切换
-      - 🛫 自动选择
+      - ✈️ 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
@@ -149,7 +149,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇨🇳 台湾节点
-      - 🛫 自动选择
+      - ✈️ 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
@@ -166,7 +166,7 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 手动切换
-      - 🛫 自动选择
+      - ✈️ 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
@@ -178,7 +178,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🚀 手动切换
-      - 🛫 自动选择
+      - ✈️ 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
@@ -189,7 +189,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🚀 手动切换
-      - 🛫 自动选择
+      - ✈️ 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
@@ -205,7 +205,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🚀 手动切换
-      - 🛫 自动选择
+      - ✈️ 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
@@ -216,7 +216,7 @@ proxy-groups:
     proxies:
       - 🚀 手动切换
       - DIRECT
-      - 🛫 自动选择
+      - ✈️ 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
@@ -227,7 +227,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🚀 手动切换
-      - 🛫 自动选择
+      - ✈️ 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
@@ -238,7 +238,7 @@ proxy-groups:
     proxies:
       - 🚀 手动切换
       - DIRECT
-      - 🛫 自动选择
+      - ✈️ 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
