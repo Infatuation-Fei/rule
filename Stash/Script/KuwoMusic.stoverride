@@ -6,7 +6,7 @@ http:
     - "*.kuwo.cn"
   script:
     - match: ^http://(.+).kuwo.cn(/v2/api/user/info|/a.p|/vip/v2/user/vip)
-      name: kuwod
+      name: kuwo
       type: response
       require-body: true
       timeout: 10
