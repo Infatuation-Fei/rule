@@ -9,7 +9,7 @@ http:
     - match: ^https?://ios(-.*)?\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D
       name: nf
       type: request
-      require-body: flase
+      require-body: false
       timeout: 10
     - match: ^https?://ios(-.*)?\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D
       name: nf2
