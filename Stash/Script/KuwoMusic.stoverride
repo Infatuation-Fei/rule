@@ -22,3 +22,4 @@ script-providers:
   kuwod:
     url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js
     interval: 3600
+
