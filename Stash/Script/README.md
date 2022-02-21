@@ -27,4 +27,4 @@ Stash 1.4.0 Bulid159为首个支持使用JavaScript脚本改写HTTP(S)请求的�
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/fuxie.jpg)
 
-
+安装后首次启动会下载脚本，所以首次启动过程可能较慢。
