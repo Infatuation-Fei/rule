@@ -9,7 +9,7 @@ http:
       name: BaiduCloud
       type: response
       require-body: true
-      timeout: 10
+      timeout: 120
       
 script-providers:
   BaiduCloud:
