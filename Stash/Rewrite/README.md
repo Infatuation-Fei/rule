@@ -2,7 +2,9 @@
 ===
 请自行安装好mitm证书，以下方法任取其一即可，无论使用何种方法`mitm和重写的开关必须保持开启状态`
 
-由于raw链接被墙，请开启代理后导入
+本文件夹下内容仅为一般重写规则，脚本重写请返回上级目录查看
+
+![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/jieshi.jpg)
 
 以下方法以Tiktok解锁为例，其它的同理(Tiktok解锁必须使用老版本，建议21.1.0版，文末有APP降级的工具与方法)
 
@@ -12,7 +14,7 @@
 
   方法1
   ----
-① 获取raw链接：
+① 获取raw链接(由于raw链接被墙，请开启代理后导入)：
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/jiaoxue.png)
 
