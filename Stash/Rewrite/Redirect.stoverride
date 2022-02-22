@@ -3,6 +3,7 @@ desc: 常用HTTPS重定向
 
 http:
   mitm:
+    - g.cn
     - "*.google.cn"
     - "api.abema.io"
     - "app.biliintl.com"
