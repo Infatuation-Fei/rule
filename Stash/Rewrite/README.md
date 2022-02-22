@@ -2,7 +2,7 @@
 ===
 请自行安装好mitm证书，以下方法任取其一即可，无论使用何种方法`mitm和重写的开关必须保持开启状态`
 
-本文件夹下内容仅为一般重写规则，脚本重写请返回上级目录查看
+本文件夹下内容仅为一般的重写规则，`配置模板`与`脚本重写`等其它内容请返回上级目录查看
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/jieshi.jpg)
 
