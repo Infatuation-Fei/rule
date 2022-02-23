@@ -11,7 +11,9 @@
 
 本配置为自己写的自用配置改成的模板，未必适合所有人，请酌情使用，使用请详细阅读以下说明
 
-由于iOS严格限制NE内存，iOS15之前NE内存仅为15M，iOS15后NE内存为50M，且Clash内核相对占用内存较大，所以规则过多可能导致在低于iOS15的设备上无法启动，建议iOS15以下用户使用`ConfigLite-Stash.yaml`此模板为精简模板，规则少，可以在低于iOS15的设备上正常运行，iOS15以上的设备推荐使用`Config-Stash.yaml`
+由于iOS严格限制NE内存，iOS15之前NE内存仅为15M，iOS15后NE内存为50M，且Clash内核相对占用内存较大，所以规则过多可能导致低于iOS15的设备上无法启动
+
+故建议iOS15以下用户使用`ConfigLite-Stash.yaml`此模板为精简模板，规则少，可以在低于iOS15的设备上正常运行，iOS15以上的设备推荐使用`Config-Stash.yaml`
 
 使用
 ---
