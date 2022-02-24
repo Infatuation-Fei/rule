@@ -1,0 +1,22 @@
+name: 去广告
+desc: 分流去广告
+
+rule-providers:
+
+  adblocklite:
+    type: http
+    behavior: classical
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite.yaml"
+    path: ./ruleset/AdvertisingLite.yaml
+    interval: 86400
+
+  adblocklite2:
+    type: http
+    behavior: domain
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Domain.yaml"
+    path: ./ruleset/AdvertisingLite2.yaml
+    interval: 86400
+    
+rules:
+  - RULE-SET,adblocklite,AdBlock
+  - RULE-SET,adblocklite2,AdBlock
