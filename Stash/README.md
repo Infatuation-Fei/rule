@@ -2,7 +2,7 @@
 
 已有内容
 ==
-- 重写规则———————[Rewrite](https://github.com/Infatuation-Fei/rule/tree/main/Stash/Rewrite)
+- 重写规则———————`Rewrite`
 - 分流规则———————`Rule`
 - 脚本重写———————`Script`
 
