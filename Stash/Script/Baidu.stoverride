@@ -1,0 +1,16 @@
+name: 百度搜索防跳转
+desc: 防止在网页版百度搜索结果中点击关键词时跳转AppStore
+
+http:
+  mitm:
+    - "boxer.baidu.com"
+  script:
+    - match: ^https:\/\/boxer\.baidu\.com\/scheme\?scheme
+      name: Baidu
+      type: response
+      require-body: false
+      timeout: 10
+      
+script-providers:
+  Baidu:
+    url: https://raw.githubusercontent.com/app2smile/rules/master/js/baidu-no-redirect.js
