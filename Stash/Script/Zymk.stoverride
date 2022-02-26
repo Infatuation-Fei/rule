@@ -1,0 +1,17 @@
+name: 知音漫客
+desc: 解锁知音漫客付费章节(需登录)
+
+http:
+  mitm:
+    - "user*.zymk.cn"
+  script:
+    - match: ^https:\/\/(userpurchased|user-api)\.zymk\.cn\/v\d\/(userpurchased\/paychapters|getuserinfo)\/
+      name: Zymk
+      type: response
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  Zymk:
+    url: https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Zymh.js
+    interval: 3600
