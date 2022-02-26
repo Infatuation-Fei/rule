@@ -1,0 +1,15 @@
+name: QQ空间广告屏蔽
+desc: QQ空间广告屏蔽
+
+http:
+  rewrite:
+    - ^http:\/\/(rpt|v|c)\.gdt\.qq\.com\/(creative_view|gdt_stats|gdt_clickwap)\/.+ - reject
+    - ^http:\/\/pgdt\.gtimg\.cn\/gdt\/.+ - reject
+    - ^http:\/\/pgdt\.gtimg\.cn\/.+\/snscosdownload\/SH\/reserved\/.+ - reject
+
+rules:
+  - DOMAIN,d3g.qq.com,REJECT
+  - DOMAIN,bsrv.qq.com,REJECT
+  - DOMAIN,sq.bls.mdt.qq.com,REJECT
+  - DOMAIN,adsmind.gdtimg.com,REJECT
+  - DOMAIN,xj-landing.gdtimg.com,REJECT
