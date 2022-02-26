@@ -181,7 +181,6 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png
     proxies:
       - REJECT
-      - 手动切换
 
   - name: PayPal
     type: select
