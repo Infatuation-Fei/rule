@@ -11,9 +11,6 @@
 使用方法
 ===
 
-
-  方法1
-  ----
 ① 获取raw链接(由于raw链接被墙，请开启代理后导入)：
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/jiaoxue.png)
@@ -28,32 +25,6 @@
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/fuxie.jpg)
 
-- `注`：
-
-Tiktok解锁修改观看地区的话需要修改重写规则，建议使用方法2，方法2导入后可自行修改重写规则内容，方便tiktok换区，其余规则推荐使用此方法导入，简单方便（不建议小白使用方法3）
-
-  方法2
-----
-① 分别通过软件主页重写规则与MITM模块将获取的raw链接使用URL导入
-
-![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/Tiktokyanshi0.jpg)
-
-② 效果图：
-
-![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/IMG_1716.JPG)
-
-  方法3
-  -----
- 如果你会编写配置文件，将链接中http及后面的内容整个复制出来，放到你自己的配置文件中即可
- 
- 可以像图上一样整段放到最后面，也可以插入中间，注意不要破坏掉其它字段即可
- 
- ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/jiaoxue3.jpg)
- 
- 再添加更多的规则时仅需要再将其它的mitm和rewrite复制出来添加上即可。
- 
- 目前软件主页的mitm和重写模块与配置文件是独立的，所以放在配置文件里的重写规则是不会在首页显示的，首页添加的也不会写入配置文件。
- 
 附
 =
 
