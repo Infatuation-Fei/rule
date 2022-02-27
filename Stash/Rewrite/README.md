@@ -30,7 +30,7 @@
 
   软件降级方法：
  
-  使用自己的ID抓包
+  Apple软件会验证ID，所以请使用自己的ID抓包
  
   抓包工具：
   [点击下载](https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/iOS%E6%8A%93%E5%8C%85/iOS%E6%97%A7%E7%89%88%E5%BA%94%E7%94%A8%E4%B8%8B%E8%BD%BDv5.1.exe)
