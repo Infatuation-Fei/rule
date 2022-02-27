@@ -7,7 +7,7 @@ http:
     - "*.byteoversea.com"
     - "*.tik-tokapi.com"
   rewrite:
-    # 第一行JP为观看的地区，默认JP(日本)，可自行修改为其它地区
+    # 第一行JP为观看的地区，本规则为JP(日本)，可自行修改为其它地区
     - (?<=_region=)CN(?=&) JP 307
     - (?<=&mcc_mnc=)4 2 307
     - ^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
