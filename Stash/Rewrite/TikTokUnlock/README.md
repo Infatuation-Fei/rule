@@ -1,5 +1,9 @@
 说明
 ===
-Tiktok解锁规则，每一个为不同观看地区，一次仅能使用一个，`请勿重复使用`
+Tiktok解锁规则，每一个为不同观看地区，一次仅能使用一个，`请勿重复使用`，可以向图上一样导入多个，但仅启用一个
 
-FR法国 JP日本 KR韩国 MO澳门 MY马来西亚 SG新加坡 TH泰国 TW台湾 US美国 VN越南
+![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/Tiktok%E8%AF%B4%E6%98%8E.png)
+
+地区代码说明
+===
+FR-法国 JP-日本 KR-韩国 MO-澳门 MY-马来西亚 SG-新加坡 TH-泰国 TW-台湾 US-美国 VN-越南
