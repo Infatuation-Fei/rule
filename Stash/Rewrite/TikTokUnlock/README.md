@@ -6,7 +6,7 @@ Tiktok解锁`必须使用老版本`，建议21.1.0版，上级文件夹[Rewrite]
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/Tiktok%E8%AF%B4%E6%98%8E.png)
 
-地区代码说明
+地区代码解释
 ===
 - FR-法国 
 - JP-日本 
