@@ -6,7 +6,7 @@
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/jieshi.jpg)
 
-以下方法以Tiktok解锁为例，其它的同理(Tiktok解锁`必须使用老版本`，建议21.1.0版，文末有APP降级的工具与方法)
+以下方法以Tiktok解锁(位于TikTokUnlock文件夹下)为例，其它的同理(Tiktok解锁`必须使用老版本`，建议21.1.0版，文末有APP降级的工具与方法)
 
 使用方法
 ===
