@@ -13,7 +13,7 @@ Stash 1.4.0 Bulid159为首个支持使用JavaScript脚本改写HTTP(S)请求的�
 
 使用方法
 ===
-① 获取raw链接：
+① 获取raw链接(raw链接被墙,请开启代理后导入)：
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/jiaoxue.png)
 
