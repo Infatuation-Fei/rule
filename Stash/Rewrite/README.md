@@ -13,8 +13,6 @@
 
 ① 获取raw链接(由于raw链接被墙，请开启代理后导入)：
 
-![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/jiaoxue.png)
-
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/jiaoxue2.png)
 
 点击Raw(手机上点击右上三个点然后View Raw)后进入链接，把链接复制出来即可
