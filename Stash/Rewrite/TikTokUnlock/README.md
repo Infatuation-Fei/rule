@@ -1,4 +1,4 @@
-说明
+Tiktok解锁说明
 ===
 Tiktok解锁`必须使用老版本`，建议21.1.0版，上级文件夹[Rewrite](https://github.com/Infatuation-Fei/rule/edit/main/Stash/Rewrite)最底部有软件降级方法与工具
 
