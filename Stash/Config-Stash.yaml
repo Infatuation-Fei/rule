@@ -334,11 +334,18 @@ proxy-groups:
 
 rule-providers:
 
-  adblock:
+  Adblock:
     type: http
     behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AdvertisingLite/AdvertisingLite_Classical.yaml"
-    path: ./ruleset/Advertising_Classical.yaml
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite.yaml"
+    path: ./ruleset/Ad.yaml
+    interval: 86400
+
+  Adblock-Domain:
+    type: http
+    behavior: domain
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Domain.yaml"
+    path: ./ruleset/AdDomain.yaml
     interval: 86400
         
   YouTube:
@@ -421,7 +428,8 @@ rule-providers:
 
 
 rules:
-  - RULE-SET,adblock,AdBlock
+  - RULE-SET,Adblock,AdBlock
+  - RULE-SET,Adblock-Domain,AdBlock
   - RULE-SET,YouTube,YouTube
   - RULE-SET,Netflix,NETFLIX
   - RULE-SET,Disney,Disney+
