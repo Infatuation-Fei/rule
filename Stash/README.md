@@ -42,3 +42,7 @@
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/shan.jpg)
 
 以上为筛选不到时的处理方法，以JP为例，如果是TW/US等筛选不到也是同样的处理方法，删除`Proxy-Providers`里一整段与策略组使用的`use引用`就可以了
+
+-注
+ 
+将规则较多的规则集替换为了Domain类型，由于Stash统计的是拆分后的规则，即 +.example.com=example.com+*.example.com ，所以Stash显示`Config-Stash.yaml`约为10W条规则
