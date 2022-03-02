@@ -45,4 +45,4 @@
 
 - 注
  
-将规则较多的规则集替换为了Domain类型，由于Stash统计的是拆分后的规则，即 +.example.com = example.com + *.example.com ，所以Stash显示`Config-Stash.yaml`约为10W条规则，实际文本规则量约为6.7W(在Clash For Windows中显示的规则集数量总和约为6.7W)
+将规则较多的规则集替换为了Domain类型，由于Stash统计的是拆分后的规则，即 +.example.com = example.com + *.example.com ，所以Stash显示`Config-Stash.yaml`约为10W条规则，实际文本规则量约为6.7W(在Clash For Windows等其它Clash客户端中显示的规则集数量总和约为6.7W)
