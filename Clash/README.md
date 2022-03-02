@@ -2,7 +2,7 @@
 ===
 使用
 ---
-下载`Config.yaml`，然后打开编辑，根据内容提示替换链接后导入Clash使用即可，一定要注意不要粘贴多余的空格之类的。
+请使用Clash最新版，下载`Config.yaml`，然后打开编辑，根据内容提示替换链接后导入Clash使用即可，一定要注意不要粘贴多余的空格之类的。
 
 **Stash不要使用本配置，请使用[Stash](https://github.com/Infatuation-Fei/rule/tree/main/Stash)文件夹下的Config-Stash.yaml模板**
 
