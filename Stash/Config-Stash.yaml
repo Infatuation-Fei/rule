@@ -27,7 +27,7 @@ proxy-providers:
     url: "https://api.v1.mk/sub?target=clash&url=你的订阅链接&list=true&udp=true"
     filter: 美|🇺🇲|US|(?i)States|American
     interval: 3600
-    path: ./us.yaml
+    path: ./all.yaml
     health-check:
       enable: true
       interval: 600
@@ -39,7 +39,7 @@ proxy-providers:
     url: "https://api.v1.mk/sub?target=clash&url=你的订阅链接&list=true&udp=true"
     filter: 港|🇭🇰|HK|(?i)Hong
     interval: 3600
-    path: ./hk.yaml
+    path: ./all.yaml
     health-check:
       enable: true
       interval: 600
@@ -51,7 +51,7 @@ proxy-providers:
     url: "https://api.v1.mk/sub?target=clash&url=你的订阅链接&list=true&udp=true"
     filter: 日|🇯🇵|东京|JP|(?i)Japan
     interval: 3600
-    path: ./jp.yaml
+    path: ./all.yaml
     health-check:
       enable: true
       interval: 600
@@ -63,7 +63,7 @@ proxy-providers:
     url: "https://api.v1.mk/sub?target=clash&url=你的订阅链接&list=true&udp=true"
     filter: 韩|🇰🇷|首尔|KR|(?i)Korea
     interval: 3600
-    path: ./kr.yaml
+    path: ./all.yaml
     health-check:
       enable: true
       interval: 600
@@ -75,7 +75,7 @@ proxy-providers:
     url: "https://api.v1.mk/sub?target=clash&url=你的订阅链接&list=true&udp=true"
     filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan
     interval: 3600
-    path: ./tw.yaml
+    path: ./all.yaml
     health-check:
       enable: true
       interval: 600
