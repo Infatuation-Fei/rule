@@ -11,9 +11,10 @@ external-controller: 127.0.0.1:9090
 proxy-providers:
 
   #全部节点
-  All:
+  All: &All #建立锚点
     type: http
     url: "https://api.v1.mk/sub?target=clash&url=你的订阅链接&list=true&udp=true"
+    # 可以使用任意类型的链接替换上面文字，也可以将Clash订阅链接替换掉整个引号""内的链接
     interval: 3600
     path: ./all.yaml
     health-check:
@@ -23,63 +24,28 @@ proxy-providers:
 
   #美国节点    
   US:
-    type: http
-    url: "https://api.v1.mk/sub?target=clash&url=你的订阅链接&list=true&udp=true"
+    <<: *All #引用锚点内容
     filter: 美|🇺🇲|US|(?i)States|American
-    interval: 3600
-    path: ./all.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
-
+    
   #香港节点
   HK:
-    type: http
-    url: "https://api.v1.mk/sub?target=clash&url=你的订阅链接&list=true&udp=true"
+    <<: *All
     filter: 港|🇭🇰|HK|(?i)Hong
-    interval: 3600
-    path: ./all.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
 
   #日本节点
   JP:
-    type: http
-    url: "https://api.v1.mk/sub?target=clash&url=你的订阅链接&list=true&udp=true"
+    <<: *All
     filter: 日|🇯🇵|东京|JP|(?i)Japan
-    interval: 3600
-    path: ./all.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
 
   #韩国节点
   KR:
-    type: http
-    url: "https://api.v1.mk/sub?target=clash&url=你的订阅链接&list=true&udp=true"
+    <<: *All
     filter: 韩|🇰🇷|首尔|KR|(?i)Korea
-    interval: 3600
-    path: ./all.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
       
  #台湾节点
   TW:
-    type: http
-    url: "https://api.v1.mk/sub?target=clash&url=你的订阅链接&list=true&udp=true"
+    <<: *All
     filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan
-    interval: 3600
-    path: ./all.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
 
 dns:
   enable: true
