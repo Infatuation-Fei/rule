@@ -37,7 +37,7 @@
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/%E7%AD%9B%E9%80%89%E9%94%99%E8%AF%AF.png)
 
-是因为你的订阅链接里筛选不到US(美国)节点，删掉US的信息就可以了，即以下图上两处：
+是因为你的订阅链接里筛选不到US(美国)节点，删掉US的信息就可以了，即以下图上红圈内两处：
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/%E7%AD%9B%E9%80%89%E5%88%A0%E9%99%A4.png)
 
