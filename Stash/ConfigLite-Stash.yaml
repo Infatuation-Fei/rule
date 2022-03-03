@@ -1,4 +1,4 @@
-# 将proxy-providers里面链接中的“你的订阅链接”全部替换，任意类型的链接均可,如v2ray、Clash等订阅链接
+# 将proxy-providers里面链接中的“你的订阅链接”替换即可
 
 mixed-port: 7890
 allow-lan: true
