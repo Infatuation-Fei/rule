@@ -1,4 +1,4 @@
-# 将proxy-providers里面链接中的“你的订阅链接”全部替换，任意类型的链接均可,如v2ray、Clash等订阅链接
+# 将proxy-providers里面链接中的“你的订阅链接”替换即可
 
 mixed-port: 7890
 allow-lan: true
@@ -14,6 +14,7 @@ proxy-providers:
   All: &All #建立锚点
     type: http
     url: "https://api.v1.mk/sub?target=clash&url=你的订阅链接&list=true&udp=true"
+    # 可以使用任意类型的链接替换上面文字，也可以将Clash订阅链接替换掉整个引号""内的链接
     interval: 3600
     path: ./all.yaml
     health-check:
