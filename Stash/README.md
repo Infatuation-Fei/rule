@@ -35,13 +35,15 @@
 ----
 如果出现以下报错
 
-![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/cuowu.jpg)
+![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/%E7%AD%9B%E9%80%89%E9%94%99%E8%AF%AF.png)
 
 是因为你的订阅链接里筛选不到JP(日本)节点，删掉JP的信息就可以了，即以下图上两处：
 
-![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/shan.jpg)
+![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/%E7%AD%9B%E9%80%89%E5%88%A0%E9%99%A4.png)
 
-以上为筛选不到时的处理方法，以JP为例，如果是TW/US等筛选不到也是同样的处理方法，删除`Proxy-Providers`里一整段与策略组使用的`use引用`就可以了
+![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/%E7%AD%9B%E9%80%89%E5%88%A0%E9%99%A41.png)
+
+以上为筛选不到时的处理方法，以US为例，如果是TW/JP等筛选不到也是同样的处理方法，删除`Proxy-Providers`里一整段与策略组使用的`use引用`就可以了
 
 - 注
  
