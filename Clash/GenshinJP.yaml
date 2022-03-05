@@ -11,3 +11,6 @@ payload:
   - DOMAIN,sdk-os-static.mihoyo.com
   - DOMAIN,oseurodispatch.yuanshen.com
   - DOMAIN,osasiadispatch.yuanshen.com
+  - DST-PORT,22101
+  - DST-PORT,22102
+  - DST-PORT,8999
