@@ -17,7 +17,3 @@
 (Stash 1.4.0 Bulid160+ 版本支持覆写导入规则)
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/fuxie.jpg)
-
-- 注
-
-由于Stash统计的是拆分后的规则，即 +.example.com = example.com + *.example.com ，所以Stash显示本规则约为5W条规则，实际规则量约为3.7W
