@@ -2,6 +2,13 @@ name: 去广告规则
 desc: 分流去广告
 
 rule-providers:
+  Direct: # 修正规则
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.yaml"
+    path: ./ruleset/direct.yaml
+    interval: 86400
+
   Adblock:
     type: http
     behavior: classical
@@ -17,5 +24,6 @@ rule-providers:
     interval: 86400
     
 rules:
+  - RULE-SET,Direct,DIRECT
   - RULE-SET,Adblock,REJECT
   - RULE-SET,Adblock-Domain,REJECT
