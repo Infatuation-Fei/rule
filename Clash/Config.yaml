@@ -260,6 +260,13 @@ proxy-groups:
 
 rule-providers:
 
+  Direct:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.yaml"
+    path: ./ruleset/direct.yaml
+    interval: 86400
+
   adblock:
     type: http
     behavior: classical
@@ -347,6 +354,7 @@ rule-providers:
 
 
 rules:
+  - RULE-SET,Direct,DIRECT
   - RULE-SET,adblock,🆎 AdBlock
   - RULE-SET,YouTube,🎬 YouTube
   - RULE-SET,Netflix,🎬 NETFLIX
