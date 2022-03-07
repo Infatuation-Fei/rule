@@ -19,7 +19,7 @@
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/celve.jpg)
 
-策略组使用Stash的引用ICON功能，ICON(图标)采用[Koolson的Qure Color(点击跳转)](https://github.com/Koolson/Qure/tree/master/IconSet/Color)，在其它Clash客户端中使用不会显示图标
+策略组使用Stash的引用ICON功能，ICON(图标)库采用[Koolson的Qure Color](https://github.com/Koolson/Qure/tree/master/IconSet/Color)，在其它Clash客户端中使用不会显示图标
 
 - 更新节点
 
