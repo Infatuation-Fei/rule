@@ -16,3 +16,4 @@ payload:
   - DST-PORT,8999
   # 崩坏3
   - DST-PORT,16100
+  - DOMAIN,hk-bundle-jp-mihayo.akamaized.net
