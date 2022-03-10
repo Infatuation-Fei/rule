@@ -14,7 +14,7 @@ proxy-providers:
   All: &All #建立锚点
     type: http
     url: "https://api.v1.mk/sub?target=clash&url=你的订阅链接&list=true&udp=true"
-    # 可以使用任意类型的链接替换上面文字，也可以将Clash订阅链接替换掉整个引号""内的链接
+    # 可以使用任意类型的链接替换上面文字，多个链接使用竖杠|隔开一起写上即可；也可以将Clash订阅链接替换掉整个引号""内的链接
     interval: 3600
     path: ./all.yaml
     health-check:
