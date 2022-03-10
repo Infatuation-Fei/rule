@@ -9,6 +9,8 @@
 配置模板
 ===
 
+`Config-Stash.yaml`或`ConfigLite-Stash.yaml`，可以用于所有Clash客户端
+
 本配置为自己写的自用配置改成的模板，未必适合所有人，请酌情使用，使用请详细阅读以下说明
 
 使用
