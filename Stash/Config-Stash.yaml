@@ -160,11 +160,11 @@ proxy-groups:
     proxies:
       - 手动切换
       - 自动选择
-      - DIRECT
       - 香港节点
       - 日本节点
       - 美国节点
       - 台湾节点
+      - DIRECT
 
   - name: 微软服务
     type: select
@@ -172,11 +172,11 @@ proxy-groups:
     proxies:
       - 手动切换
       - 自动选择
-      - DIRECT
       - 香港节点
       - 日本节点
       - 美国节点
       - 台湾节点
+      - DIRECT
 
   - name: 网易音乐
     type: select
@@ -202,11 +202,11 @@ proxy-groups:
     proxies:
       - 手动切换
       - 自动选择
-      - DIRECT
       - 香港节点
       - 日本节点
       - 美国节点
       - 台湾节点
+      - DIRECT
 
   - name: 国内网站
     type: select
@@ -226,11 +226,11 @@ proxy-groups:
     proxies:
       - 手动切换
       - 自动选择
-      - DIRECT
       - 香港节点
       - 日本节点
       - 美国节点
       - 台湾节点
+      - DIRECT
 
   - name: 香港节点
     type: select
