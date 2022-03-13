@@ -9,13 +9,13 @@
 配置模板
 ===
 
-`Config-Stash.yaml`或`ConfigLite-Stash.yaml`，可以用于所有Clash客户端
+`Config-Stash.yaml`，可以用于所有Clash客户端
 
 本配置为自己写的自用配置改成的模板，未必适合所有人，请酌情使用，使用请详细阅读以下说明
 
 使用
 ---
-下载`Config-Stash.yaml`或`ConfigLite-Stash.yaml`导入，然后打开编辑，根据内容提示替换链接即可，一定要注意不要粘贴多余的空格之类的。
+下载`Config-Stash.yaml`导入，然后打开编辑，根据内容提示替换链接即可，一定要注意不要粘贴多余的空格之类的。
 
 - 策略展示
 
@@ -31,9 +31,7 @@
 
 - 注
 
-由于iOS严格限制NE内存，iOS15之前NE内存仅为15M，iOS15后NE内存为50M，且Clash内核相对占用内存较大，所以规则过多可能导致低于iOS15的设备上无法启动
-
-故建议iOS15以下用户使用规则少的精简模板`ConfigLite-Stash.yaml`，iOS15以上的设备推荐使用`Config-Stash.yaml`
+低于iOS15请不要使用本配置，由于iOS严格限制NE内存，iOS15以下NE内存仅为15M(iOS15为50M)，且Clash内核相对占用内存较大，规则过多在低于iOS15的设备上无法启动，低于iOS15的越狱设备可自行修改NE内存限制后使用
 
 报错处理
 ----
