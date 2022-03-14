@@ -17,3 +17,13 @@ payload:
   # 崩坏3
   - DST-PORT,16100
   - DOMAIN,hk-bundle-jp-mihayo.akamaized.net
+  - DOMAIN,client-report.bh3.com
+  
+  - DOMAIN,bigfile-aliyun-jp.honkaiimpact3.com
+  - DOMAIN,api-sea.mihoyo.com
+  - DOMAIN,hk-bigfile-jp-mihayo.akamaized.net
+  - DOMAIN,jp001.houkai3rd.com
+  - DOMAIN,api-sdk-os.mihoyo.com
+  - DOMAIN,hk-bundle-jp-mihayo.akamaized.net
+  - DOMAIN,global2.houkai3rd.com
+  - DOMAIN,global1.houkai3rd.com
