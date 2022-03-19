@@ -4,14 +4,6 @@
 ===
 使用这些覆写规则必须`安装好mitm证书，mitm和重写的开关也必须保持开启状态`
 
-Stash 1.4.0 Bulid159为首个支持使用JavaScript脚本改写HTTP(S)请求的版本，可能不兼容某些JavaScript语法，若导入后无效，请等待后续更新。
-
-目前可用
-----
-- `ADWX.stoverride`
-- `KuWoMusic.stoverride`
-
-**经测试目前仅以上几个可用，其余脚本目前均不支持，建议更新支持后再导入**
 
 使用方法
 ===
