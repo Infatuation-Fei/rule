@@ -1,4 +1,5 @@
-name: WPS Office 解锁部分功能
+name: WPS Office
+desc: 解锁超级会员部分功能
 
 http:
   mitm:
