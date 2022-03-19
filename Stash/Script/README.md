@@ -15,8 +15,6 @@
 
 ② 通过首页覆写安装
 
-(Stash 1.4.0 Bulid159+ 版本支持)
-
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/fuxie.jpg)
 
 安装后首次启动会下载脚本，所以首次启动过程可能较慢。
