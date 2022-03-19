@@ -1,5 +1,5 @@
 name: Dualsub
-desc: 流媒体字幕翻译，Disney+, Star+, HBO Max, Netflix, Paramount+, YouTube subtitles add-ons
+desc: 流媒体字幕翻译
 
 http:
   mitm:
