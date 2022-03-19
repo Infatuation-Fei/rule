@@ -1,0 +1,30 @@
+name: Dualsub
+desc: 流媒体字幕翻译，Disney+, Star+, HBO Max, Netflix, Paramount+, YouTube subtitles add-ons
+
+http:
+  mitm:
+    - "*.media.dssott.com"
+    - "*.media.starott.com"
+    - "*.api.hbo.com"
+    - "*.hbomaxcdn.com"
+    - "*.nflxvideo.net"
+    - "*.cbsaavideo.com"
+    - "*.cbsivideo.com"
+    - "*.youtube.com"
+  script:
+    - match: https:\/\/.*(media.(dss|star)ott|manifests.v2.api.hbo|hbomaxcdn|nflxvideo|cbs(aa|i)video).(com|net)\/((.+(\.vtt(\?m=\d+)*|-all-.+.m3u8.*))|hls.m3u8.+|\?o=\d+&v=\d+&e=.+)
+      name: Dualsub
+      type: response
+      require-body: true
+      timeout: 30
+
+    - match: https:\/\/(setting|www).(media.dssott|hbomaxcdn|nflxvideo|youtube|cbsivideo).(com|net)\/(\?action=(g|s)et|api\/timedtext.+)
+      name: Dualsub
+      type: request
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  Dualsub:
+    url: https://raw.githubusercontent.com/Neurogram-R/Surge/master/Dualsub.js
+    interval: 3600
