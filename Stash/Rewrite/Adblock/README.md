@@ -1,5 +1,6 @@
 重写去广告
 ===
+规则众多，千万不要使用重写(Rewrite)导入，建议统一使用覆写(Override)导入
 
 Advertising与AdvertisingLite二选一使用，不可同时使用
 
