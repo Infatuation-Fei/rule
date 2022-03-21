@@ -91,4 +91,8 @@ script-providers:
     url: https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js
     interval: 3600
 
-    
+rules:
+  - DOMAIN,appcloud2.in.zhihu.com,REJECT
+  - DOMAIN,mqtt.zhihu.com,REJECT
+  - DOMAIN,sugar.zhihu.com,REJECT
+  
