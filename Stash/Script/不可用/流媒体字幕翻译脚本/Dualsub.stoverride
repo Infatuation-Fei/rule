@@ -1,5 +1,5 @@
 name: Dualsub
-desc: 流媒体字幕翻译,需配合快捷指令设置
+desc: 流媒体字幕翻译,需配合快捷指令设置语言
 
 http:
   mitm:
