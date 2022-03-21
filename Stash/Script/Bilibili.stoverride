@@ -3,7 +3,8 @@ desc: 需iOS15，去除开屏页、推荐页、动态、视频播放页面广告
 
 http:
   mitm:
-    - "account.wps.cn"
+    - "app.bilibili.com"
+    - "grpc.biliapi.net"
   script:
     - match: ^https:\/\/app\.bilibili\.com\/x\/(v2\/(splash\/(list|show)|feed\/index\?)|resource\/show\/tab\/v2)
       name: bilibili
