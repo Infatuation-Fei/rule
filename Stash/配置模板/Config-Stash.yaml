@@ -274,17 +274,10 @@ rule-providers:
     path: ./ruleset/direct.yaml
     interval: 86400
 
-  Adblock:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite.yaml"
-    path: ./ruleset/Ad.yaml
-    interval: 86400
-
   Adblock-Domain:
     type: http
     behavior: domain
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Domain.yaml"
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
     path: ./ruleset/AdDomain.yaml
     interval: 86400
         
@@ -376,7 +369,6 @@ rule-providers:
 
 rules:
   - RULE-SET,Direct,DIRECT
-  - RULE-SET,Adblock,AdBlock
   - RULE-SET,Adblock-Domain,AdBlock
   - RULE-SET,YouTube,YouTube
   - RULE-SET,Netflix,NETFLIX
