@@ -3,7 +3,7 @@ desc: 高级订阅管理工具
 
 http:
   mitm:
-    - sub.store
+    - "sub.store"
   script:
     - match: ^https?:\/\/sub\.store
       name: SubStore
