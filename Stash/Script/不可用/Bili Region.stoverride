@@ -1,0 +1,24 @@
+name: 百度网盘
+desc: 解锁解锁在线视频倍率/清晰度
+
+http:
+  mitm:
+    - "ap?.bilibili.com"
+    - "ap?.biliapi.net"
+  script:
+    - match: ^https:\/\/ap(p|i)\.bili(bili|api)\.(com|net)\/(pgc\/view\/v\d\/app\/season|x\/v\d\/search\/defaultwords)\?access_key
+      name: biliregion
+      type: response
+      require-body: true
+      timeout: 120
+    
+    - match: ^https:\/\/ap(p|i)\.bili(bili|api)\.(com|net)\/x\/v\d\/search(\/type)?\?.+?%20(%E6%B8%AF|%E5%8F%B0|%E4%B8%AD)&
+      name: biliregion
+      type: request
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  biliregion:
+    url: https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js
+    interval: 3600
