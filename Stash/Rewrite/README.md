@@ -4,7 +4,9 @@
 ===
 使用这些覆写规则`必须安装好mitm证书，mitm和重写的开关也必须保持开启状态`
 
-本文件夹下内容仅为一般的重写规则，`配置模板`与`脚本重写`等其它内容请返回上级目录查看
+请返回上级目录查看`配置模板`与`脚本重写`等
+
+本文件夹下内容仅为一般的重写规则
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/jieshi.jpg)
 
