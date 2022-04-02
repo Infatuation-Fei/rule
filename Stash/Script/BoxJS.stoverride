@@ -2,6 +2,8 @@ name: BoxJS
 desc: 安装后访问http://boxjs.com/进入
 
 http:
+  mitm:
+    - "boxjs.com"
   script:
     - match: ^https?://boxjs.com
       name: boxjs
