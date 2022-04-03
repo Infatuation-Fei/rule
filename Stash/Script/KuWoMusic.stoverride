@@ -5,7 +5,7 @@ http:
   mitm:
     - "spclient.wg.spotify.com"
   script:
-    - match: ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)
+    - match: ^https?:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)
       name: kuwoD
       type: response
       require-body: true
