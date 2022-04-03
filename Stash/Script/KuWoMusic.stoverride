@@ -1,11 +1,11 @@
-name: 酷我音乐
-desc: 解锁会员试听及部分功能
+name: Spotify(iOS15)
+desc: 部分解锁premium,建议重新登录,音质不能设置为超高
 
 http:
   mitm:
-    - "vip1.kuwo.cn"
+    - "spclient.wg.spotify.com"
   script:
-    - match: ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice)
+    - match: ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)
       name: kuwoD
       type: response
       require-body: true
@@ -13,5 +13,5 @@ http:
       
 script-providers:
   kuwoD:
-    url: https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js
+    url: https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
     interval: 3600
