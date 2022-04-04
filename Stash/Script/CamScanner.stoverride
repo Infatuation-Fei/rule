@@ -1,5 +1,5 @@
 name: 扫描全能王
-desc: 解锁扫描全能王高级会员
+desc: 解锁扫描全能王会员
 
 http:
   mitm:
