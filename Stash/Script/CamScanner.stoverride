@@ -1,0 +1,17 @@
+name: 扫描全能王
+desc: 解锁扫描全能王高级会员
+
+http:
+  mitm:
+    - "*.intsig.net"
+  script:
+    - match: ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?
+      name: camscanner
+      type: response
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  camscanner:
+    url: https://raw.githubusercontent.com/id77/QuantumultX/master/Script/camscanner.js
+    interval: 3600
