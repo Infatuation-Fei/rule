@@ -1,6 +1,6 @@
 Tiktok解锁说明
 ===
-Tiktok解锁`必须使用老版本`，建议21.1.0版，[Stash](https://github.com/Infatuation-Fei/rule/edit/main/Stash)文件夹最底部有软件降级方法与工具
+Tiktok解锁`必须先安装老版本21.1.0版`，然后可在APP Store升级使用，[Stash](https://github.com/Infatuation-Fei/rule/edit/main/Stash)文件夹最底部有软件降级方法与工具
 
 不同观看地区的Tiktok解锁规则，一次仅能使用一个，`切勿重复使用!`，可以像图上一样导入多个，但仅启用一个
 
