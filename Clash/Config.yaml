@@ -18,7 +18,7 @@ proxy-providers:
     health-check:
       enable: true
       interval: 600
-      url: http://www.gstatic.com/generate_204
+      url: “你的订阅链接”
   #香港节点     
   HK:
     type: file
@@ -27,7 +27,7 @@ proxy-providers:
     health-check:
       enable: true
       interval: 120
-      url: http://www.gstatic.com/generate_204
+      url: “你的订阅链接”
  #日本节点
   JP:
     type: file
@@ -36,7 +36,7 @@ proxy-providers:
     health-check:
       enable: true
       interval: 120
-      url: http://www.gstatic.com/generate_204
+      url: “你的订阅链接”
  #美国节点
   US:
     type: file
@@ -45,7 +45,7 @@ proxy-providers:
     health-check:
       enable: true
       interval: 120
-      url: http://www.gstatic.com/generate_204
+      url: “你的订阅链接”
  #台湾节点
   TW:
     type: file
@@ -54,7 +54,7 @@ proxy-providers:
     health-check:
       enable: true
       interval: 120
-      url: http://www.gstatic.com/generate_204
+      url: “你的订阅链接”
       
 dns:
   enable: true
@@ -100,7 +100,7 @@ proxy-groups:
     type: url-test
     use: 
        - All
-    url: "http://www.gstatic.com/generate_204"
+    url: “你的订阅链接”
     interval: 300
 
   - name: 🎬 YouTube
