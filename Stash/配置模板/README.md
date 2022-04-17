@@ -1,7 +1,7 @@
 配置模板
 ===
 
-`Config-Stash.yaml`，可以用于所有Clash Premium客户端
+`Config-Stash.yaml`，可以用于所有Clash(Premium内核)客户端
 
 本配置为自己写的自用配置改成的模板，未必适合所有人，请酌情使用，使用请详细阅读以下说明
 
