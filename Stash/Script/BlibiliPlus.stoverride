@@ -1,5 +1,5 @@
 name: Bilibili
-desc: Bilibili去广告
+desc: Bilibili去广告Plus
 
 http:
   mitm:
