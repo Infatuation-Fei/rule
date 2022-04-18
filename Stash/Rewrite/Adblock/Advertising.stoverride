@@ -15,7 +15,7 @@ http:
     - mobileapi-v6.elong.com
     - weibointl.api.weibo.cn
     - wmapi.meituan.com
-  mitm:
+mitm:
     - "*-.amemv.com"
     - "*.atm.youku.com"
     - "*.baidu.com"
@@ -620,6 +620,7 @@ http:
     - "zt-app.go189.cn"
 
   rewrite:
+    - ^https:\/\/api-ks\.wtzw\.com\/api\/v(1|2)\/(float-adv|init-adv|reader-adv|bookshelf-adv|coopen-adv) - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)(:\d+)?\/V\d\/splash\/getSplashV\d\.action$ - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+/xygj-config-api\/queryData - reject
     - ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+\/allOne\.php\?ad_name - reject
@@ -798,7 +799,6 @@ http:
     - ^https?:\/\/als\.baidu\.com\/clog\/clog - reject
     - ^https?:\/\/api-163\.biliapi\.net\/cover - reject
     - ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads - reject
-    - ^https?:\/\/api-ks\.wtzw\.com\/api\/v(1|2)\/(float-adv|init-adv|reader-adv) - reject
     - ^https?:\/\/api-mifit\.huami\.com\/(discovery\/mi\/discovery\/(homepage|sleep|sport(_(summary|training))?|step_detail|training_video)_ad|v1\/app\/startpages\.json)\? - reject
     - ^https?:\/\/api-new\.app\.acfun\.cn\/rest\/app\/flash\/screen\/ - reject
     - ^https?:\/\/api-release\.wuta-cam\.com\/ad_tree - reject
