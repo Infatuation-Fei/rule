@@ -15,7 +15,7 @@ http:
     - mobileapi-v6.elong.com
     - weibointl.api.weibo.cn
     - wmapi.meituan.com
-mitm:
+  mitm:
     - "*-.amemv.com"
     - "*.atm.youku.com"
     - "*.baidu.com"
