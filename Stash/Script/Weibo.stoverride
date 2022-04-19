@@ -7,6 +7,17 @@ http:
     - "mapi.weibo.com"
     - "sdkapp.uve.weibo.com"
   script:
+    # 微博去广告
+    - match: ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua)
+      name: wb
+      type: response
+      require-body: true
+      timeout: 10
+    - match: ^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status|video/tiny_stream_video_list|photo/info)
+      name: wb2
+      type: response
+      require-body: true
+      timeout: 10
     # 微博下面的评论
     - match: ^https://(api\.weibo\.cn|mapi\.weibo\.com)/2/comments/build_comments\?
       name: weibo_comment
@@ -45,6 +56,13 @@ http:
       timeout: 10
       
 script-providers:
+  # 微博去广告
+  wb:
+    url: https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
+    interval: 3600
+  wb2:
+    url: https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
+    interval: 3600
   # 微博下面的评论
   weibo_comment:
     url: https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/weibo/weibo_comment.js
