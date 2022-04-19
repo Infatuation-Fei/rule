@@ -5,7 +5,7 @@ http:
   mitm:
     - "api.weibo.cn"
     - "mapi.weibo.com"
-    - "sdkapp.uve.weibo.com"
+    - "*.uve.weibo.com"
   script:
     # 微博去广告
     - match: ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua)
