@@ -1,5 +1,6 @@
 payload:
   #原神亚服
+  - DOMAIN-SUFFIX,hoyoverse.com
   - DOMAIN,log-upload-os.mihoyo.com
   - DOMAIN,autopatchhk.yuanshen.com
   - DOMAIN,hk4e-sdk-os.mihoyo.com
@@ -12,11 +13,6 @@ payload:
   - DOMAIN,sdk-os-static.mihoyo.com
   - DOMAIN,oseurodispatch.yuanshen.com
   - DOMAIN,osasiadispatch.yuanshen.com
-  - DOMAIN,hk4e-sdk-os-static.hoyoverse.com
-  - DOMAIN,sdk-os-static.hoyoverse.com
-  - DOMAIN,abtest-api-data-sg.hoyoverse.com
-  - DOMAIN,webstatic-sea.hoyoverse.com
-  - DOMAIN,log-upload-os.hoyoverse.com
   #原神服务器端口
   - DST-PORT,22101
   - DST-PORT,22102
