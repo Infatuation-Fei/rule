@@ -2,19 +2,16 @@ payload:
   - DOMAIN-SUFFIX,mihoyo.com
   - DOMAIN-SUFFIX,hoyoverse.com
   - DOMAIN-SUFFIX,yuanshen.com
-  #原神服务器端口
+  - DOMAIN-SUFFIX,houkai3rd.com
+  - DOMAIN-SUFFIX,bh3.com
+  - DOMAIN-SUFFIX,honkaiimpact3.com
+  - DOMAIN,hk-bundle-jp-mihayo.akamaized.net
+  - DOMAIN,hk-bigfile-jp-mihayo.akamaized.net
+  - DOMAIN,hk-bundle-jp-mihayo.akamaized.net
+  #原神游戏服务器端口
   - DST-PORT,22101
   - DST-PORT,22102
   - DST-PORT,8999
-  # 崩坏3服务器端口
+  # 崩坏3游戏服务器端口
   - DST-PORT,16100
 
-  - DOMAIN,hk-bundle-jp-mihayo.akamaized.net
-  - DOMAIN,client-report.bh3.com
-  
-  - DOMAIN,bigfile-aliyun-jp.honkaiimpact3.com
-  - DOMAIN,hk-bigfile-jp-mihayo.akamaized.net
-  - DOMAIN,jp001.houkai3rd.com
-  - DOMAIN,hk-bundle-jp-mihayo.akamaized.net
-  - DOMAIN,global2.houkai3rd.com
-  - DOMAIN,global1.houkai3rd.com
