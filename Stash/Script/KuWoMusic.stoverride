@@ -3,15 +3,25 @@ desc: 解锁会员试听及部分功能
 
 http:
   mitm:
-    - "vip1.kuwo.cn"
+    - "*.kuwo.cn"
   script:
-    - match: ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice)
-      name: kuwoD
+    # 解锁酷我音乐会员➕听书
+    - match: ^http://(.+).kuwo.cn(/v2/api/user/info|/a.p|/vip/v2/user/vip)
+      name: kwyy
       type: response
+      require-body: true
+      timeout: 10
+    # 解锁酷我音乐会员下载
+    - match: ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver.+$
+      name: kwyyxz
+      type: request
       require-body: true
       timeout: 10
       
 script-providers:
-  kuwoD:
-    url: https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js
+  kwyy:
+    url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyy.js
+    interval: 3600
+  kwyyxz:
+    url: https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kwyyxz.js
     interval: 3600
