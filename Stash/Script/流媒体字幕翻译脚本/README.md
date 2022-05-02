@@ -6,4 +6,4 @@ Stash 1.6.0 Build260+可用
 
 点击阅读手册：[Dualsub](https://neurogram.notion.site/Dualsub-b8b2c5259ef54b349722717ec25c2853)
 
-在手册“下载”中安装快捷指令Shortcuts
+在手册找到“下载”中的Shortcuts点击安装快捷指令
