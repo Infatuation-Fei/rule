@@ -1,6 +1,6 @@
 脚本来源于@Neurogram
 
-Stash1.6.0Build260+可用
+Stash 1.6.0 Build260+可用
 
 需使用快捷指令对脚本翻译的语言进行设置
 
