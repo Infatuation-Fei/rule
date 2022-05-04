@@ -1,0 +1,4 @@
+name: 日志等级Debug
+desc: Stash日志等级debug才会显示网络请求日志
+
+log-level: debug
