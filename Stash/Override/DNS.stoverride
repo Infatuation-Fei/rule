@@ -1,5 +1,5 @@
 name: DNS
-desc: 
+desc: 国内网站使用腾讯与阿里DNS，国外网站使用Cloudflare与谷歌DNS
 
 dns:
   enable: true
