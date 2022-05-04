@@ -11,6 +11,9 @@
 
 使用方法
 ---
+
+使用重写与脚本类覆写`必须安装好mitm证书，mitm和重写的开关也必须保持开启状态`
+
 ① 获取raw链接：
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/%E8%8E%B7%E5%8F%96Raw%E9%93%BE%E6%8E%A5.jpg)
