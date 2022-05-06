@@ -41,10 +41,13 @@ proxy-groups中国外/国内网站策略组的proxies中美国节点删除掉：
 --
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/%E5%9B%BD%E5%86%85%E5%A4%96%E7%AD%96%E7%95%A5%E7%BB%84.jpg)
 
+- 增加其它地区策略组也只需在这两个策略组中引用即可，其它策略组的策略均引用的这两个策略组的策略
+
 proxy-groups中美国节点策略组删除掉：
 ---
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/US%E7%AD%96%E7%95%A5%E7%BB%84.jpg)
 
-以上为筛选不到时的处理方法，以US为例，如果是TW/JP等筛选不到也是同样的处理方法，删除`Proxy-Providers`里一整段与策略组使用的`use引用`就可以了
+以上为筛选不到时的处理方法，以US为例，如果是TW/JP等筛选不到也是同样的处理方法
 
 若确定你的链接中包含相关节点，也可在proxy-providers里filter后自行增加节点名称关键词，每个关键词用竖杠|隔开
+
