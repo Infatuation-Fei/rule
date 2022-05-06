@@ -41,7 +41,7 @@ proxy-groups中国外/国内网站策略组的proxies中美国节点删除掉：
 --
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/%E5%9B%BD%E5%86%85%E5%A4%96%E7%AD%96%E7%95%A5%E7%BB%84.jpg)
 
-- 增加其它地区策略组也只需在这两个策略组中引用即可，其它策略组的策略均引用的这两个策略组的策略
+- 增加其它地区策略也只需在这两个策略组proxies中添加即可，其它策略组的策略均引用的这两个策略组的策略
 
 proxy-groups中美国节点策略组删除掉：
 ---
