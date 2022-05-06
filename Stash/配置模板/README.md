@@ -37,11 +37,11 @@ proxy-providers中美国节点相关片段：
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/%E7%AD%9B%E9%80%89%E5%88%A0%E9%99%A4.png)
 
-proxy-groups中美国节点策略组删除掉：
+proxy-groups中国外/国内网站策略组的proxies中美国节点删除掉：
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/%E5%9B%BD%E5%86%85%E5%A4%96%E7%AD%96%E7%95%A5%E7%BB%84.jpg)
 
-proxy-groups中国外/国内网站策略组的proxies中美国节点删除掉：
+proxy-groups中美国节点策略组删除掉：
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/US%E7%AD%96%E7%95%A5%E7%BB%84.jpg)
 
