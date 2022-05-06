@@ -26,7 +26,7 @@
 低于iOS15请不要使用本配置，由于iOS严格限制NE内存，iOS15以下NE内存仅为15M(iOS15为50M)，且Clash内核相对占用内存较大，规则过多在低于iOS15的设备上无法启动，低于iOS15的越狱设备可自行修改NE内存限制后使用，方法自行谷歌搜索，建议至少改成100M+
 
 报错处理
-----
+===
 如果出现以下报错
 
 ![](https://raw.githubusercontent.com/Infatuation-Fei/explain/main/Picture/%E7%AD%9B%E9%80%89%E9%94%99%E8%AF%AF.png)
