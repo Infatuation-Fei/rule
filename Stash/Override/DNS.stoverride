@@ -30,7 +30,7 @@ dns:
   fallback:
    - https://1.1.1.1/dns-query
    - https://dns.google/dns-query
-fallback-filter:
+  fallback-filter:
    geoip: true
    geoip-code: CN
    ipcidr:
