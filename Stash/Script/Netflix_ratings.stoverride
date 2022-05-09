@@ -12,15 +12,12 @@ http:
       require-body: false
       timeout: 10
     - match: ^https?://ios(-.*)?\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D
-      name: nf2
+      name: nf
       type: response
       require-body: true
       timeout: 10  
       
 script-providers:
   nf:
-    url: https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
-    interval: 86400
-  nf2:
     url: https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
     interval: 86400
