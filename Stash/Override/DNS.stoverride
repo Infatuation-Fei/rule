@@ -28,10 +28,10 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
   fallback:
-   - https://1.1.1.1/dns-query
-   - https://dns.google/dns-query
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
   fallback-filter:
-   geoip: true
-   geoip-code: CN
-   ipcidr:
-     - 240.0.0.0/4
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
