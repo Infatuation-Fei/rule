@@ -14,4 +14,4 @@ http:
 script-providers:
   wps:
     url: https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
-    interval: 3600
+    interval: 86400
