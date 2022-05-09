@@ -13,5 +13,5 @@ http:
 script-providers:
   wx:
     url: https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
-    interval: 3600
+    interval: 86400
     
