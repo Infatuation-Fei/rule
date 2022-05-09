@@ -14,3 +14,4 @@ http:
 script-providers:
   Baidu:
     url: https://raw.githubusercontent.com/app2smile/rules/master/js/baidu-no-redirect.js
+    interval: 86400
