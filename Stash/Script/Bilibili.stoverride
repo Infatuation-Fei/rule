@@ -20,8 +20,8 @@ http:
 script-providers:
   bilibili:
     url: https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-json.js
-    interval: 3600
+    interval: 86400
   #去除动态页广告(目前不支持，注释掉)
   # bilibili2:
     # url: https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-proto.js
-    # interval: 3600
+    # interval: 86400
