@@ -95,7 +95,7 @@ http:
 script-providers:
   zhihu:
     url: https://gist.githubusercontent.com/blackmatrix7/2e550ebf28ca60d620654e394ec47e0b/raw/zhihu.js
-    interval: 3600
+    interval: 86400
 
 rules:
   - DOMAIN,118.89.204.198,REJECT
