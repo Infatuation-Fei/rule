@@ -20,7 +20,7 @@ http:
 script-providers:
   nf:
     url: https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
-    interval: 3600
+    interval: 86400
   nf2:
     url: https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
-    interval: 360
+    interval: 86400
