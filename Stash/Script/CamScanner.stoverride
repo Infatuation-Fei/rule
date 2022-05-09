@@ -14,4 +14,4 @@ http:
 script-providers:
   camscanner:
     url: https://raw.githubusercontent.com/id77/QuantumultX/master/Script/camscanner.js
-    interval: 3600
+    interval: 86400
