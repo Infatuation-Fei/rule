@@ -1,0 +1,17 @@
+# 上游：https://github.com/githubdulong/Script/blob/master/jd_price2.sgmodule
+name: 京东比价
+desc: 京东手机APP历史价格查看
+
+http:
+  mitm:
+    - "api.m.jd.com"
+  script:
+    - match: ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig)
+      name: JD_Price
+      type: response
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  JD_Price:
+    url: https://raw.githubusercontent.com/githubdulong/Script/master/jd_price.js
