@@ -15,3 +15,4 @@ http:
 script-providers:
   JD_Price:
     url: https://raw.githubusercontent.com/githubdulong/Script/master/jd_price.js
+    interval: 86400
