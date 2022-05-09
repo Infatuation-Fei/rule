@@ -33,4 +33,4 @@ http:
 script-providers:
   Dualsub:
     url: https://raw.githubusercontent.com/Neurogram-R/Surge/master/Dualsub.js
-    interval: 3600
+    interval: 86400
