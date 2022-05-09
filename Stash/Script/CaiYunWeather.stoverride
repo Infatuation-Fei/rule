@@ -14,4 +14,4 @@ http:
 script-providers:
   caiyun:
     url: https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/caiyun.js
-    interval: 3600
+    interval: 86400
