@@ -59,31 +59,31 @@ script-providers:
   # 微博去广告
   wb:
     url: https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
-    interval: 3600
+    interval: 86400
   wb2:
     url: https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
-    interval: 3600
+    interval: 86400
   # 微博下面的评论
   weibo_comment:
     url: https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/weibo/weibo_comment.js
-    interval: 3600
+    interval: 86400
   # 微博 推荐 热门/榜单/放映厅…；微博 最新微博；视频流（短视频上划，微博继续推荐新视频）；微博 全部关注
   weibo_statuses:
     url: https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/weibo/weibo_statuses.js
-    interval: 3600
+    interval: 86400
   # 发现 搜索 超话 帖子/精华/官方
   weibo_cardlist:
     url: https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/weibo/weibo_cardlist.js
-    interval: 3600
+    interval: 86400
   # 发现 热点（这货特殊，有卡片广告）
   weibo_cardlist_discover:
     url: https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/weibo/weibo_cardlist_discover.js
-    interval: 3600
+    interval: 86400
   # 每条微博下面 创作者广告共享计划
   weibo_statuses_extend:
     url: https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/weibo/weibo_statuses_extend.js
-    interval: 3600
+    interval: 86400
   # 开屏广告
   weibo_sdkad:
     url: https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/weibo/weibo_sdkad.js
-    interval: 3600
+    interval: 86400
