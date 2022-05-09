@@ -65,7 +65,7 @@ http:
 script-providers:
   bilibili_plus:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js
-    interval: 3600
+    interval: 86400
 
 rules:
   - DOMAIN-SUFFIX,cm.bilibili.com,REJECT
