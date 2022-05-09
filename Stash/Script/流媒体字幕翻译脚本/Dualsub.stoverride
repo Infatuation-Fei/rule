@@ -1,5 +1,6 @@
 name: Dualsub
 desc: 流媒体字幕翻译,需配合快捷指令设置语言,到Github中查看并安装相关快捷指令
+
 # 进入此链接查看README安装快捷指令:https://github.com/Infatuation-Fei/rule/tree/main/Stash/Script/流媒体字幕翻译脚本
 
 http:
