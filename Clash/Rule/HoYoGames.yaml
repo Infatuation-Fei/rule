@@ -14,4 +14,5 @@ payload:
   - DST-PORT,8999
   # 崩坏3游戏服务器端口
   - DST-PORT,16100
-
+  # 永劫无间服务器端口
+  - DST-PORT,28553
