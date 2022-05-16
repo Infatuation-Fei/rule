@@ -1,0 +1,4 @@
+name: 全局模式
+desc: 以全局模式启动
+
+mode: global
