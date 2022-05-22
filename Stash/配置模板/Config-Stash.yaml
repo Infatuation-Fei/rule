@@ -8,8 +8,10 @@ log-level: info
 ipv6: true
 external-controller: 127.0.0.1:9090
 
-proxy-providers:
+subscribe-url: 你的订阅链接
+#替换上面文字用于Stash获取机场流量信息并在主页显示(Stash1.6.1 build287+支持)
 
+proxy-providers:
   #全部节点
   All: &All #建立锚点
     type: http
