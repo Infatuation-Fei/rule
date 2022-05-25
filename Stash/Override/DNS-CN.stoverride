@@ -1,5 +1,5 @@
 name: 🍟DNS-CN
-desc: 腾讯与阿里DNS
+desc: 采用腾讯与阿里DNS
 
 dns:
   enable: true
