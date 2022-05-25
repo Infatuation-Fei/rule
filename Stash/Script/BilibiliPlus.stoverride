@@ -7,7 +7,10 @@ http:
     - "api.bilibili.com"
     - "api.live.bilibili.com"
     - "api.vc.bilibili.com"
-  rewrite:
+  url-rewrite:
+    - ^https?:\/\/api\.bilibili\.com\/x\/v2\/dm\/ad - reject
+      # 可能的一些推广(beta)
+    - ^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\? - reject
     # 去除搜索中的大家都在搜
     - ^https?:\/\/api\.vc\.bilibili\.com\/search_svr\/v\d\/Search\/recommend_words - reject
     # 去除动态中的话题
@@ -69,8 +72,3 @@ script-providers:
 
 rules:
   - DOMAIN-SUFFIX,cm.bilibili.com,REJECT
-  - URL-REGEX,^https?:\/\/api\.bilibili\.com\/x\/v2\/dm\/ad,REJECT
-  # 可能的一些推广(beta)
-  - URL-REGEX,^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\?,REJECT
-  # BiliBili漫画去广告
-  - URL-REGEX,^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.comic\/flash,REJECT
