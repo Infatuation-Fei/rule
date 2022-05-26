@@ -1,13 +1,17 @@
 payload:
-  # Genshin与崩坏3启动器进程名
+  # Windows原神与崩坏3启动器进程名
   - PROCESS-NAME,launcher.exe
   - PROCESS-NAME,QtWebEngineProcess.exe
-  # Genshin进程名
+  # Windows原神进程名
   - PROCESS-NAME,GenshinImpact.exe
   - PROCESS-NAME,ZFGameBrowser.exe
-  # 崩坏3进程名
+  # Windows崩坏3进程名
   - PROCESS-NAME,BH3.exe
-  #原神游戏服务器端口
+  # 安卓原神包名
+  - PROCESS-NAME,com.miHoYo.Yuanshen
+  # 安卓原神国际服包名
+  - PROCESS-NAME,com.miHoYo.GenshinImpact
+  # 原神游戏服务器端口
   - DST-PORT,22101
   - DST-PORT,22102
   - DST-PORT,8999
