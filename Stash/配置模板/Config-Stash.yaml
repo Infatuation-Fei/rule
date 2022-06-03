@@ -9,7 +9,7 @@ ipv6: true
 external-controller: 127.0.0.1:9090
 
 subscribe-url: 你的订阅链接
-#替换上面文字用于Stash获取机场流量信息并在主页显示(Stash1.6.1 build287+支持)
+#替换上面文字用于Stash获取机场流量信息并在主页显示
 
 proxy-providers:
   #全部节点
