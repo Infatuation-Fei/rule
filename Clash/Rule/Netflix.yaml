@@ -32,3 +32,5 @@ payload:
   - DOMAIN-KEYWORD,dualstack.ichnaea-web-
   - DOMAIN-KEYWORD,netflix
   - DOMAIN-KEYWORD,netflixdnstest
+  - PROCESS-NAME,com.netflix.mediaclient
+  
