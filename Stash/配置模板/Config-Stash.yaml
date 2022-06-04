@@ -16,7 +16,7 @@ proxy-providers:
   All: &All #建立锚点
     type: http
     url: "https://api.v1.mk/sub?target=clash&url=你的订阅链接&list=true&udp=true"
-    # 以下方法任选其一,有Clash订阅优先使用方法二
+    # 以下方法任选其一⚠️有Clash订阅优先使用方法二❗️
     # 1.可以使用任意类型的链接仅替换上面文字，多个链接使用英文符号的竖杠|隔开一起写上即可
     # 2.Sub-Store与Clash类型订阅链接替换掉整个引号""内的链接
     interval: 86400
