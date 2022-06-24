@@ -1,7 +1,7 @@
 配置模板
 ===
 
-`Config-Stash.yaml`，可以用于所有Clash(Premium内核)客户端
+`Config2.yaml`，可以用于所有Clash(Premium内核)客户端
 
 地区节点已采用策略组筛选,Stash2.0与Clash Mate内核支持，官方Clash内核使用本配置没有筛选效果
 
