@@ -1,0 +1,19 @@
+name: 屏蔽QUIC
+desc: 防止哔哩哔哩等产生大量连接占用资源
+
+script:
+  shortcuts:
+    quic: network == 'udp' and (dst_port == 443 or dst_port == 4483 or dst_port == 9305)
+    BilibiliUdp: network == "udp" and match_provider("Bili")
+    
+rule-providers:
+  Bili:
+    type: http
+    behavior: classical
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml"
+    path: ./ruleset/BiliBili.yaml
+    interval: 86400
+    
+rules:
+  - SCRIPT,quic,REJECT
+  - SCRIPT,BilibiliUdp,REJECT
