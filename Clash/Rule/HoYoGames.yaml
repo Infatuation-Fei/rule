@@ -40,3 +40,13 @@ payload:
 
   # 永劫无间服务器端口
   - DST-PORT,28553
+  
+  # CSGO服务器端口
+  - DST-PORT,27020
+  - DST-PORT,27024
+  - DST-PORT,27036
+  - DST-PORT,27060
+  - DST-PORT,27032
+  - DST-PORT,27019
+  - DST-PORT,27021
+  - DST-PORT,27022
