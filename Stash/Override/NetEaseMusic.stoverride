@@ -4,7 +4,7 @@ desc: 解锁灰色歌曲与VIP试听，在网易云音乐策略组中走解锁�
 proxy-providers:
   Music:
     type: http
-    url: "https://api.v1.mk/sub?target=clash&url=https://raw.githubusercontent.com/nameking77/Qx/main/music/wyy.txt&list=true&udp=true"
+    url: "https://api.v1.mk/sub?target=clash&url=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NeteaseMusic/AgentNode/QuantumultX.snippet&list=true&udp=true"
     interval: 86400
     path: ./proxy/NetEaseMusic.yaml
     health-check:
