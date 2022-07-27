@@ -1,7 +1,7 @@
 配置模板
 ===
 
-Stash请使用`Config2.0.yaml`
+Stash请使用`Config2.0.yaml`，不能用`Config1.0.yaml`
 
 官方Clash(Premium内核)请使用`Config1.0.yaml`
 
