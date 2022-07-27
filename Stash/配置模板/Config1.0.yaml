@@ -1,4 +1,5 @@
 # 将proxy-providers里面链接中的“订阅链接”替换即可
+# ⚠️Stash不能使用本配置⚠️
 
 mixed-port: 7890
 allow-lan: true
