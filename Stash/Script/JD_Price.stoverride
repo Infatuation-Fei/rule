@@ -1,5 +1,4 @@
-# 上游：https://github.com/githubdulong/Script/blob/master/jd_price2.sgmodule
-name: 京东比价🍥
+name: 京东比价
 desc: 京东手机APP历史价格查看
 
 http:
