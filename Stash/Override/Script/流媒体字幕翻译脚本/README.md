@@ -1,6 +1,6 @@
 脚本来源于@Neurogram
 
-需使用快捷指令对脚本翻译的语言进行设置
+初次使用需使用快捷指令对脚本翻译的语言进行设置
 
 [点此获取快捷指令](https://www.icloud.com/shortcuts/8ec4a2a3af514282bf27a11050f39fc2)
 
