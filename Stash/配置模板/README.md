@@ -1,11 +1,11 @@
 配置模板
 ===
 
-Stash请使用`Config2.0.yaml`
+Stash请使用`Config for Stash.yaml`，Stash低于2.0版与官方Clash也可使用本配置，只是策略组地区筛选没有效果
 
-⚠️Stash不能用`Config1.0.yaml`，会报错⚠️
+⚠️Stash(任何版本)不能用`Config for Clash.yaml`，会报错⚠️
 
-官方Clash(Premium内核)请使用`Config1.0.yaml`
+官方Clash(Premium内核)建议使用`Config for Clash.yaml`
 
 二者分流规则完全相同
 
@@ -15,7 +15,7 @@ Stash请使用`Config2.0.yaml`
 
 使用
 ---
-下载`Config2.0.yaml`导入，然后打开编辑，根据内容提示替换链接即可，一定要注意不要粘贴多余的空格之类的。
+下载`Config for Stash.yaml`导入，然后打开编辑，根据内容提示替换链接即可，一定要注意不要粘贴多余的空格之类的。
 
 - 策略展示
 
