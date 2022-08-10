@@ -1,0 +1,14 @@
+name: 汇率监控
+desc: 汇率监控，每日21点推送
+
+cron:
+  script:
+    - name: HuiLv
+      cron: '0 0 21 * *'
+      argument: ''
+      timeout: 10
+ 
+script-providers:
+  HuiLv:
+    url: https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js
+    interval: 86400
