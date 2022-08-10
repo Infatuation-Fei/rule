@@ -1,0 +1,26 @@
+name: 哔哩哔哩漫画签到
+desc: 打开哔哩哔哩漫画后,单击"我的",如果通知获取cookie成功,则可以使用此脚本.每天上午9点执行
+
+# 脚本来源@NobyDa
+
+http:
+  mitm:
+    - "app.bilibili.com"
+  # 获取Bili漫画Cookie
+  script:
+    - match: ^https:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo
+      name: Manga
+      type: request
+      require-body: false
+      timeout: 30
+cron:
+  # Bili漫画签到
+  script:
+    - name: Manga
+      cron: '0 9 * * *'
+      timeout: 120
+ 
+script-providers:
+  Manga:
+    url: https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
+    interval: 86400
