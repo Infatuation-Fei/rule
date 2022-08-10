@@ -1,0 +1,22 @@
+name: 哔哩哔哩番剧监控
+desc: 手机哔哩哔哩点击我的-动态，即可获取cookie；每日20点推送通知
+
+http:
+  mitm:
+    - "*.bilibili.com"
+  script:
+    - match: https?:\/\/app.bilibili.com\/x\/v2\/space\/bangumi
+      name: bilifanju
+      type: request
+      require-body: false
+      timeout: 30
+cron:
+  script:
+    - name: bilifanju
+      cron: '0 0 20 * *'
+      timeout: 120
+ 
+script-providers:
+  bilifanju:
+    url: https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/bangumiMonitor.js
+    interval: 86400
