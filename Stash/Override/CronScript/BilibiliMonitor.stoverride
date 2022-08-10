@@ -13,7 +13,7 @@ http:
 cron:
   script:
     - name: bilifanju
-      cron: '0 0 20 * *'
+      cron: '0 20 * * *'
       timeout: 120
  
 script-providers:
