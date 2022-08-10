@@ -1,0 +1,15 @@
+name: TG频道图片推送
+desc: 请查看覆写内容在boxjs中设置频道,每日12点与22点推送
+
+# boxjs中订阅https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/telegram.js，然后在'Telegram频道媒体推送'中设置频道
+
+cron:
+  script:
+    - name: telegram
+      cron: '0 12/22 * * *'
+      timeout: 120
+ 
+script-providers:
+  telegram:
+    url: https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/telegram.js
+    interval: 86400
