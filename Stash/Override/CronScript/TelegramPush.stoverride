@@ -6,7 +6,7 @@ desc: 请查看覆写内容在boxjs中设置频道,每日12点与22点推送
 cron:
   script:
     - name: telegram
-      cron: '0 12/22 * * *'
+      cron: '0 12,22 * * *'
       timeout: 120
  
 script-providers:
