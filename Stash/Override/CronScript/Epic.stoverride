@@ -1,0 +1,13 @@
+name: Epic周免
+desc: 每周Epic游戏限免提醒，每周五9点推送
+
+cron:
+  script:
+    - name: Epic
+      cron: '0 9 * * 5'
+      timeout: 120
+ 
+script-providers:
+  Epic:
+    url: https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/epic.js
+    interval: 86400
