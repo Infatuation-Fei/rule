@@ -1,0 +1,26 @@
+# 原神游戏服务器端口
+DEST-PORT,22101
+DEST-PORT,22102
+DEST-PORT,8999
+# 崩坏3游戏服务器端口
+DEST-PORT,16100
+# 其它miHoYo相关
+# 后缀
+DOMAIN-SUFFIX,mihoyo.com
+DOMAIN-SUFFIX,hoyoverse.com
+DOMAIN-SUFFIX,yuanshen.com
+DOMAIN-SUFFIX,houkai3rd.com
+DOMAIN-SUFFIX,bh3.com
+DOMAIN-SUFFIX,honkaiimpact3.com
+# 关键词
+DOMAIN-KEYWORD,hoyoverse
+DOMAIN-KEYWORD,mihoyo
+DOMAIN-KEYWORD,mihayo
+DOMAIN-KEYWORD,yuanshen
+DOMAIN-KEYWORD,honkaiimpact3
+DOMAIN-KEYWORD,bh3
+# 域名
+DOMAIN,hk-bundle-jp-mihayo.akamaized.net
+DOMAIN,hk-bigfile-jp-mihayo.akamaized.net
+DOMAIN,hk-bundle-jp-mihayo.akamaized.net
+DOMAIN,jp.f.gm.mob.com
