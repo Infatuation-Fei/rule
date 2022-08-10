@@ -4,7 +4,7 @@ desc: 汇率监控，每日21点推送
 cron:
   script:
     - name: HuiLv
-      cron: '0 0 21 * *'
+      cron: '0 21 * * *'
       argument: ''
       timeout: 10
  
