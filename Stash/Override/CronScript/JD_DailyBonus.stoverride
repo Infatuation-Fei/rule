@@ -1,0 +1,38 @@
+name: 京东多合一签到
+desc: 请查看覆写内容获取cookie,签到脚本将在每天的凌晨0:05执行
+
+# 脚本来源@NobyDa
+
+# 获取京东Cookie:
+# Safari浏览器打开登录 https://home.m.jd.com/myJd/newhome.action 点击"我的"页面
+# 或者使用旧版网址 https://bean.m.jd.com/bean/signIndex.action 点击签到并且出现签到日历
+# 如果通知获取Cookie成功, 则可以使用此签到脚本. 注: 请勿在京东APP内获取!!!
+
+# 获取京东金融签到Body说明: 正确添加脚本配置后, 进入"京东金融"APP, 在"首页"点击"签到"并签到一次, 待通知提示成功即可.
+
+# 由于cookie的有效性(经测试网页Cookie有效周期最长31天)，如果脚本后续弹出cookie无效的通知，则需要重复上述步骤。 
+
+
+http:
+  mitm:
+    - "ms.jr.jd.com"
+    - "me-api.jd.com"
+    - "api.m.jd.com"
+  # 获取京东Cookie
+  script:
+    - match: ^https:\/\/(api\.m|me-api|ms\.jr)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?|gw\/generic\/hy\/h5\/m\/appSign\?)
+      name: JD_DailyBonus
+      type: request
+      require-body: true
+      timeout: 30
+cron:
+  # 京东多合一签到
+  script:
+    - name: JD_DailyBonus
+      cron: '5 0 * * *'
+      timeout: 60
+ 
+script-providers:
+  JD_DailyBonus:
+    url: https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+    interval: 86400
