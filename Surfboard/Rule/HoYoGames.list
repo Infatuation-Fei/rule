@@ -4,6 +4,8 @@ PROCESS-NAME,com.miHoYo.Yuanshen
 PROCESS-NAME,com.miHoYo.GenshinImpact
 # 安卓崩坏3包名
 PROCESS-NAME,com.miHoYo.enterprise.NGHSoD
+# 安卓崩坏3日服包名
+PROCESS-NAME,com.miHoYo.bh3rdJP
 # 原神游戏服务器端口
 DEST-PORT,22101
 DEST-PORT,22102
