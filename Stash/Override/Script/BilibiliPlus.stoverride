@@ -7,7 +7,7 @@ http:
     - "api.bilibili.com"
     - "api.live.bilibili.com"
     - "api.vc.bilibili.com"
-  url-rewrite:
+  rewrite:
     - ^https?:\/\/api\.bilibili\.com\/x\/v2\/dm\/ad - reject
       # 可能的一些推广(beta)
     - ^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\? - reject
