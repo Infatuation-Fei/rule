@@ -1,1 +1,1 @@
-小火箭模块
+小火箭配置Config for Shadowrocket
