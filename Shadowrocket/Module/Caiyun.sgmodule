@@ -5,4 +5,4 @@
 彩云天气 = type=http-response,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/caiyun.js,pattern=https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user),max-size=131072,requires-body=true,timeout=10,enable=true
 
 [MITM]
-hostname = biz.caiyunapp.com
+hostname = %APPEND% biz.caiyunapp.com
