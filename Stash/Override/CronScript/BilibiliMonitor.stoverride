@@ -1,5 +1,5 @@
 name: 哔哩哔哩番剧监控
-desc: 手机哔哩哔哩点击我的-动态，即可获取cookie；每日20点推送通知
+desc: 手机哔哩哔哩点击我的-动态，即可获取cookie；每日20点10分推送通知
 
 http:
   mitm:
@@ -13,7 +13,7 @@ http:
 cron:
   script:
     - name: bilifanju
-      cron: '0 20 * * *'
+      cron: '10 20 * * *'
       timeout: 120
  
 script-providers:
