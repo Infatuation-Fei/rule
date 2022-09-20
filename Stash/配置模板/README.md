@@ -15,7 +15,7 @@ Stash请使用`Config for Stash.yaml`，Stash低于2.0版与官方Clash也可使
 
 使用
 ---
-下载`Config for Stash.yaml`导入，然后打开编辑，根据内容提示替换链接即可，一定要注意不要粘贴多余的空格之类的。
+下载(View raw)`Config for Stash.yaml`导入，然后打开编辑，根据内容提示替换链接即可，一定要注意不要粘贴多余的空格之类的。
 
 - 策略展示
 
