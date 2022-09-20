@@ -1,5 +1,5 @@
 # 将proxy-providers里面链接中的“订阅链接”替换即可
-# ⚠️Stash不能使用本配置⚠️
+# ⚠️Stash不能使用本配置⚠️会报错
 
 mixed-port: 7890
 allow-lan: true
@@ -24,7 +24,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
       
   US:
-    filter: 美|🇺🇸|US|(?i)States|American
+    filter: 美|洛杉矶|🇺🇸|US|(?i)States|American
     type: file
     path: ./all.yaml
     health-check:
