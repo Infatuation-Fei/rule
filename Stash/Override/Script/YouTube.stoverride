@@ -10,6 +10,7 @@ http:
     - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse\?
       name: YouTubeH
       type: response
+      binary-mode: true
       require-body: true
       timeout: 10
       
