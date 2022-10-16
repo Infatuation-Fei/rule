@@ -1,6 +1,7 @@
 name: YouTube首页去广告
 desc: 仅去除首页瀑布流广告(≥iOS15)
 # 仓库地址 https://github.com/app2smile/rules
+# 经测试此脚本目前在Stash中不可用⚠️
 
 http:
   mitm:
