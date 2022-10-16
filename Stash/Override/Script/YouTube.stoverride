@@ -1,0 +1,17 @@
+name: YouTube首页去广告
+desc: 仅去除首页瀑布流广告(>=iOS15)
+
+http:
+  mitm:
+    - "youtubei.googleapis.com"
+  script:
+    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse\?
+      name: YouTubeH
+      type: response
+      require-body: true
+      timeout: 10
+      
+script-providers:
+  YouTubeH:
+    url: https://raw.githubusercontent.com/app2smile/rules/master/js/youtube.js
+    interval: 86400
