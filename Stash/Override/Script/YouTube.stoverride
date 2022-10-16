@@ -12,7 +12,7 @@ http:
       type: response
       binary-mode: true
       require-body: true
-      timeout: 10
+      timeout: 120
       
 script-providers:
   YouTubeH:
