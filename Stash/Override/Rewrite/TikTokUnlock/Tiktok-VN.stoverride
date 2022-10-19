@@ -1,5 +1,6 @@
 name: TikTok解锁-越南
-desc: 解锁地区限制，建议使用Tiktok21.1.0版本
+desc: 需先安装Tiktok21.1.0版本(解锁成功后可更新,但解锁也可能失效)
+# 安装旧版本教程 https://github.com/Infatuation-Fei/rule/tree/main/Stash/iOS软件降级
 
 http:
   mitm:
