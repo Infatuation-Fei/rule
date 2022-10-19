@@ -8,4 +8,4 @@
   老版iTunes：
   [点击下载](https://secure-appldnld.apple.com/itunes12/091-87819-20180912-69177170-B085-11E8-B6AB-C1D03409AD2A6/iTunes64Setup.exe)
 
-  视频：https://b23.tv/FM1h5BD
+  视频教程：https://b23.tv/FM1h5BD
