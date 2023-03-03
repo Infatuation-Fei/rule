@@ -1,4 +1,4 @@
-# ⚠️Stash不能使用本配置⚠️会报错，适用于Clash Premium内核
+# ⚠️本配置仅适用于Clash Premium内核，Stash不能使用本配置⚠️
 
 mixed-port: 7890
 allow-lan: true
