@@ -1,15 +1,11 @@
 配置模板
 ===
 
-Stash请使用`Config for Stash.yaml`，Stash低于2.0版与官方Clash也可使用本配置，只是策略组地区筛选没有效果
+⚠️Stash请使用`Config for Stash.yaml`，官方Clash(Premium内核)使用`Config for Clash.yaml`
 
-⚠️Stash(任何版本)不能用`Config for Clash.yaml`，会报错⚠️
-
-官方Clash(Premium内核)建议使用`Config for Clash.yaml`
+不可混用，分别写有对方无法支持的字段，会报错
 
 二者分流规则完全相同
-
-⚠️`Config for Stash.yaml`的地区节点已采用策略组筛选,Stash2.0与Clash Mate内核支持，官方Clash内核使用本配置没有筛选效果
 
 本配置为自己写的自用配置改成的模板，未必适合所有人，请酌情使用，使用请详细阅读以下说明
 
