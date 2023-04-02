@@ -60,8 +60,7 @@ proxy-groups:
   - name: 手动切换
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png
-    use:
-      - All
+    include-all: true #引用所有节点
     proxies:
       - 自动选择
       - 故障转移
@@ -69,8 +68,7 @@ proxy-groups:
   - name: 自动选择
     type: url-test
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png
-    use: 
-       - All
+    include-all: true
     url: "http://www.gstatic.com/generate_204"
     interval: 300
     
@@ -79,8 +77,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bypass.png
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
-    use: 
-       - All
+    include-all: true
        
   - name: 国外网站
     type: select
@@ -170,7 +167,7 @@ proxy-groups:
   - name: 香港节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
-    include-all: true #引用所有节点
+    include-all: true
     filter: (?=.*(港|🇭🇰|HK|(?i)Hong))^((?!(台|日|韩|新|美)).)*$
       
   - name: 日本节点
