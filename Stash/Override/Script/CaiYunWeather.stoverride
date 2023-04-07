@@ -9,12 +9,12 @@ http:
     - ^https:\/\/ad\.caiyunapp\.com\/ - reject
   script:
     - match: ^http[s]?:\/\/biz\.(caiyunapp|cyapi)\.(com|cn)\/v2\/user.*$
-      name: cytq
+      name: CaiYunWeather
       type: response
       timeout: 10
       require-body: true
 
 script-providers:
-  cytq:
+  CaiYunWeather:
     url: https://raw.githubusercontent.com/WeiRen0/Scripts/main/cytq.js
     interval: 86400
