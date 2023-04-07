@@ -3,8 +3,10 @@ desc: 彩云天气会员解锁
 
 http:
   mitm:
-    - "*.caiyunapp.*"
-    - "*cyapi*"
+    - "*.caiyunapp.com"
+    - "*.cyapi.com"
+    - "*.cyapi.cn"
+    - "*.caiyunapp.cn"
   rewrite:
     - ^https:\/\/ad\.caiyunapp\.com\/ - reject
   script:
