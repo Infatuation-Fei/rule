@@ -13,9 +13,8 @@ http:
     - match: ^http[s]?:\/\/biz\.(caiyunapp|cyapi)\.(com|cn)\/v2\/user.*$
       name: CaiYunWeather
       type: response
-      timeout: 10
       require-body: true
-      binary-mode: true
+      timeout: 10
 
 script-providers:
   CaiYunWeather:
