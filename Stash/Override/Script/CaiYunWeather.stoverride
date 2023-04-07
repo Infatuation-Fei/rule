@@ -15,6 +15,7 @@ http:
       type: response
       timeout: 10
       require-body: true
+      binary-mode: true
 
 script-providers:
   CaiYunWeather:
