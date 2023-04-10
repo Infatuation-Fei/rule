@@ -33,3 +33,13 @@ dns:
   nameserver:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
+
+script:
+  shortcuts:
+    quic: network == 'udp' and (dst_port == 443 or dst_port == 4483 or dst_port == 9305)
+    BilibiliUdp: network == "udp" and match_provider("BiliBili")
+    
+rules:
+  - DOMAIN,r2s.asuka.ga,DIRECT
+  - SCRIPT,quic,REJECT
+  - SCRIPT,BilibiliUdp,REJECT
