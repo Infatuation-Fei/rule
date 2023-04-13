@@ -1,0 +1,3 @@
+PROCESS-NAME,com.android.vending
+PROCESS-NAME,com.google.android.apps.googlevoice
+DOMAIN-SUFFIX,googleapis.cn
