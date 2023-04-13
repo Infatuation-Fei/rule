@@ -1,0 +1,2 @@
+DOMAIN,cloud.huawei.com
+DOMAIN,genshin.pub
