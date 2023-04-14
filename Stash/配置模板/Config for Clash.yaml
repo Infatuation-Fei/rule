@@ -1,4 +1,4 @@
-# ⚠️本配置仅适用于Clash Premium内核，Stash不能使用本配置⚠️
+# ⚠️本配置仅适用于Clash Premium 2023.4.13及以上版本内核，Stash不能使用本配置⚠️
 
 mixed-port: 7890
 allow-lan: true
@@ -16,39 +16,6 @@ proxy-providers:
     # 1.可以使用任意类型的链接仅替换上面文字，多个链接使用英文符号的竖杠|隔开一起写上即可
     # 2.直接使用Clash类型订阅链接替换掉整个引号""内的链接
     interval: 86400
-    path: ./all.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
-      
-  US:
-    filter: 美|洛杉矶|🇺🇸|US|(?i)States|American
-    type: file
-    path: ./all.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
-  JP:
-    filter: 日|东京|🇯🇵|JP|(?i)Japan
-    type: file
-    path: ./all.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
-  TW:
-    filter: 台|🇨🇳|🇹🇼|TW|(?i)Taiwan
-    type: file
-    path: ./all.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
-  HK:
-    filter: 港|🇭🇰|HK|(?i)Hong
-    type: file
     path: ./all.yaml
     health-check:
       enable: true
@@ -200,116 +167,125 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
     use:
       - HK
+    filter: 港|🇭🇰|HK|(?i)Hong
       
   - name: 日本节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
     use:
       - JP
+    filter: 日|东京|🇯🇵|JP|(?i)Japan
      
   - name: 台湾节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
     use:
       - TW
+    filter: 台|🇨🇳|🇹🇼|TW|(?i)Taiwan
 
   - name: 美国节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
     use:
       - US
+    filter: 美|洛杉矶|🇺🇸|US|(?i)States|American
     
 rule-providers:
 
   Adblock-Domain:
     type: http
     behavior: domain
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Domain.yaml"
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Domain.txt"
     path: ./ruleset/AdDomain.yaml
     interval: 86400
         
   YouTube:
     type: http
     behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml"
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.list"
     path: ./ruleset/YouTube.yaml
     interval: 86400
 
   Netflix:
     type: http
     behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml"
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.list"
     path: ./ruleset/Netflix.yaml
     interval: 86400
 
   Disney:
     type: http
     behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.yaml"
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list"
     path: ./ruleset/Disney.yaml
     interval: 86400
     
   Apple:
     type: http
-    behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml"
+    behavior: domain
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Domain.txt"
     path: ./ruleset/Apple.yaml
     interval: 86400
 
   Microsoft:
     type: http
     behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.yaml"
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.list"
     path: ./ruleset/Microsoft.yaml
     interval: 86400
 
   NetEaseMusic:
     type: http
     behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NetEaseMusic/NetEaseMusic.yaml"
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NetEaseMusic/NetEaseMusic.list"
     path: ./ruleset/NetEaseMusic.yaml
     interval: 86400
 
   BiliBili:
     type: http
     behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.yaml"
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.list"
     path: ./ruleset/BiliBili.yaml
     interval: 86400
 
   Game:
     type: http
     behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.yaml"
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.list"
     path: ./ruleset/Game.yaml
     interval: 86400
 
   PackageName:
     type: http
     behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Infatuation-Fei/rule/main/Clash/Rule/Android_Package_Name_Proxy.yaml"
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Infatuation-Fei/rule/main/Clash/Rule/Android_Package_Name_Proxy.txt"
     path: ./ruleset/PackageName.yaml
     interval: 86400
 
   China:
     type: http
-    behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China.yaml"
+    behavior: domain
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China_Domain.txt"
     path: ./ruleset/China.yaml
     interval: 86400
 
   Global:
     type: http
     behavior: domain
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt"
+    format: text
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Proxy/Proxy_Domain.txt"
     path: ./ruleset/Global-Domain.yaml
-    interval: 86400
-
-  Lan:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml"
-    path: ./ruleset/lan.yaml
     interval: 86400
     
 rules:
@@ -325,6 +301,6 @@ rules:
   - RULE-SET,PackageName,国外网站
   - RULE-SET,Global,国外网站
   - RULE-SET,China,国内网站
-  - RULE-SET,Lan,DIRECT
+  - GEOIP,Lan,DIRECT
   - GEOIP,CN,国内网站
   - MATCH,漏网之鱼
