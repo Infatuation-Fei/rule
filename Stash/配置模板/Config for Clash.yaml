@@ -166,28 +166,28 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
     use:
-      - HK
+      - All
     filter: 港|🇭🇰|HK|(?i)Hong
       
   - name: 日本节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
     use:
-      - JP
+      - All
     filter: 日|东京|🇯🇵|JP|(?i)Japan
      
   - name: 台湾节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
     use:
-      - TW
+      - All
     filter: 台|🇨🇳|🇹🇼|TW|(?i)Taiwan
 
   - name: 美国节点
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
     use:
-      - US
+      - All
     filter: 美|洛杉矶|🇺🇸|US|(?i)States|American
     
 rule-providers:
