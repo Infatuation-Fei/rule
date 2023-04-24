@@ -151,12 +151,6 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png
     proxies:
       *G
-
-  - name: AdBlock
-    type: select
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png
-    proxies:
-      - REJECT
       
   - name: 漏网之鱼
     type: select
@@ -189,13 +183,6 @@ proxy-groups:
     filter: (?=.*(美|🇺🇸|US|(?i)States|American))^((?!(港|台|日|韩|新)).)*$
 
 rule-providers:
-
-  Adblock-Domain:
-    type: http
-    behavior: domain
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Domain.yaml"
-    path: ./ruleset/AdDomain.yaml
-    interval: 86400
         
   YouTube:
     type: http
@@ -282,7 +269,6 @@ rule-providers:
     interval: 86400
     
 rules:
-  - RULE-SET,Adblock-Domain,AdBlock
   - RULE-SET,YouTube,YouTube
   - RULE-SET,Netflix,NETFLIX
   - RULE-SET,Disney,Disney+
