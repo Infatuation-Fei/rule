@@ -21,6 +21,9 @@ payload:
   - DST-PORT,8999
   # 崩坏3游戏服务器端口
   - DST-PORT,16100
+  # 崩坏:星穹铁道服务器端口
+  - DST-PORT,23301
+  - DST-PORT,29241
   # 其它miHoYo相关
    # 后缀
   - DOMAIN-SUFFIX,mihoyo.com
