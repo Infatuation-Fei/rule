@@ -250,12 +250,12 @@ rule-providers:
     path: ./ruleset/Game.yaml
     interval: 86400
 
-  PackageName:
+  OtherProxy:
     type: http
     behavior: classical
     format: text
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Infatuation-Fei/rule/main/Clash/Rule/Android_Package_Name_Proxy.txt"
-    path: ./ruleset/PackageName.yaml
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Infatuation-Fei/rule/main/Clash/Rule/OtherProxy.txt"
+    path: ./ruleset/OtherProxy.yaml
     interval: 86400
 
   China:
@@ -283,7 +283,7 @@ rules:
   - RULE-SET,NetEaseMusic,网易音乐
   - RULE-SET,BiliBili,哔哩哔哩
   - RULE-SET,Game,游戏平台
-  - RULE-SET,PackageName,国外网站
+  - RULE-SET,OtherProxy,国外网站
   - RULE-SET,Global,国外网站
   - RULE-SET,China,国内网站
   - GEOIP,Lan,DIRECT
