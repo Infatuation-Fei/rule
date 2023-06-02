@@ -275,17 +275,17 @@ rule-providers:
     interval: 86400
     
 rules:
-  - RULE-SET,YouTube,YouTube
-  - RULE-SET,Netflix,NETFLIX
-  - RULE-SET,Disney,Disney+
-  - RULE-SET,Apple,苹果服务
-  - RULE-SET,Microsoft,微软服务
-  - RULE-SET,NetEaseMusic,网易音乐
-  - RULE-SET,BiliBili,哔哩哔哩
-  - RULE-SET,Game,游戏平台
-  - RULE-SET,OtherProxy,国外网站
-  - RULE-SET,Global,国外网站
-  - RULE-SET,China,国内网站
-  - GEOIP,Lan,DIRECT
-  - GEOIP,CN,国内网站
+  - RULE-SET,YouTube,YouTube,no-resolve
+  - RULE-SET,Netflix,NETFLIX,no-resolve
+  - RULE-SET,Disney,Disney+,no-resolve
+  - RULE-SET,Apple,苹果服务,no-resolve
+  - RULE-SET,Microsoft,微软服务,no-resolve
+  - RULE-SET,NetEaseMusic,网易音乐,no-resolve
+  - RULE-SET,BiliBili,哔哩哔哩,no-resolve
+  - RULE-SET,Game,游戏平台,no-resolve
+  - RULE-SET,OtherProxy,国外网站,no-resolve
+  - RULE-SET,Global,国外网站,no-resolve
+  - RULE-SET,China,国内网站,no-resolve
+  - GEOIP,Lan,DIRECT,no-resolve
+  - GEOIP,CN,国内网站,no-resolve
   - MATCH,漏网之鱼
