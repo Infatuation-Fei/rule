@@ -273,6 +273,6 @@ rules:
   - RULE-SET,OtherProxy,国外网站
   - RULE-SET,Global,国外网站
   - RULE-SET,China,国内网站
-  - GEOIP,Lan,DIRECT
-  - GEOIP,CN,国内网站
+  - GEOIP,Lan,DIRECT,no-resolve
+  - GEOIP,CN,国内网站,no-resolve
   - MATCH,漏网之鱼
