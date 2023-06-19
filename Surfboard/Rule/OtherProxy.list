@@ -1,0 +1,6 @@
+PROCESS-NAME,com.android.vending
+PROCESS-NAME,com.google.android.apps.googlevoice
+DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-SUFFIX,petalsearch.com
+DOMAIN-SUFFIX,hoyoverse.com
+DOMAIN-KEYWORD,hoyoverse
