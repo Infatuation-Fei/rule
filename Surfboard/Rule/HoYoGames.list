@@ -12,6 +12,8 @@ DEST-PORT,22102
 DEST-PORT,8999
 # 崩坏3游戏服务器端口
 DEST-PORT,16100
+# 崩坏:星穹铁道服务器端口
+DEST-PORT,23301
 # 其它miHoYo相关
 # 后缀
 DOMAIN-SUFFIX,mihoyo.com
