@@ -1,5 +1,3 @@
-# ⚠️本配置仅适用于Stash，Clash(Premium)内核不可使用本配置⚠️
-
 # 将proxy-providers里面链接中的“订阅链接”替换即可
 
 mixed-port: 7890
