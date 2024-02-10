@@ -1,4 +1,6 @@
 name: 直连模式
 desc: 以直连模式启动
+icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Direct.png"
+category: "General"
 
 mode: direct
