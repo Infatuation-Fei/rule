@@ -1,6 +1,8 @@
 name: TikTok解锁-台湾
 desc: 需先安装Tiktok21.1.0版本(解锁成功后可更新,但解锁也可能失效)
 # 安装旧版本教程 https://github.com/Infatuation-Fei/rule/tree/main/Stash/iOS软件降级
+icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok_2.png"
+category: "TikTok"
 
 http:
   mitm:
