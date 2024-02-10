@@ -1,5 +1,7 @@
 name: 网易云音乐解锁
 desc: 解锁灰色歌曲与VIP试听，使用后请在网易云音乐策略组中选择能用的解锁节点(自行测试)，节点来源于网络
+icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netease_Music.png"
+category: "Netease Music"
 
 proxy-providers:
   Music:
