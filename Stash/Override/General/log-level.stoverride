@@ -1,4 +1,6 @@
 name: 日志等级Debug
 desc: Stash日志等级debug才会显示网络请求日志
+icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Static.png"
+category: "General"
 
 log-level: debug
