@@ -1,5 +1,7 @@
 name: Bilibili
 desc: Bilibili去广告Plus
+icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili_3.png"
+category: "Bilibili"
 
 http:
   mitm:
