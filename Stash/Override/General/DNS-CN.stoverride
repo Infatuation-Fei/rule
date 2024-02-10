@@ -1,5 +1,7 @@
 name: DNS-CN
 desc: 采用腾讯与阿里DNS
+icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png"
+category: "General"
 
 dns:
   enable: true
