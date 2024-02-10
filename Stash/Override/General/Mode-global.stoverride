@@ -1,4 +1,6 @@
 name: 全局模式
 desc: 以全局模式启动
+icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png"
+category: "General"
 
 mode: global
