@@ -1,5 +1,7 @@
 name: Bilibili去广告
 desc: 需iOS15，去除开屏页、推荐页广告
+icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png"
+category: "Bilibili"
 
 http:
   mitm:
