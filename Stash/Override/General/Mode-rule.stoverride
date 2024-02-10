@@ -1,4 +1,6 @@
 name: 规则模式
 desc: 以规则模式启动
+icon: "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ULB.png"
+category: "General"
 
 mode: rule
