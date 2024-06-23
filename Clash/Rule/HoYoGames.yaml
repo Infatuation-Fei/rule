@@ -43,6 +43,8 @@ payload:
   - DOMAIN,hk-bigfile-jp-mihayo.akamaized.net
   - DOMAIN,hk-bundle-jp-mihayo.akamaized.net
   - DOMAIN,jp.f.gm.mob.com
+   # HoyoPlay下载更新
+  - DOMAIN,autopatchos.starrails.com
 
   # 永劫无间服务器端口
   - DST-PORT,28553
