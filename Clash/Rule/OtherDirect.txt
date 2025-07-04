@@ -5,3 +5,4 @@ DOMAIN,chongdiantou.com
 DOMAIN,cdn-huoshan-cn-mc.aki-game.com
 DOMAIN-KEYWORD,aliyundrive
 DOMAIN-KEYWORD,hypergryph
+DOMAIN-KEYWORD,byd
