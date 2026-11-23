@@ -30,6 +30,7 @@ DOMAIN-SUFFIX,yuanshen.com
 DOMAIN-SUFFIX,houkai3rd.com
 DOMAIN-SUFFIX,bh3.com
 DOMAIN-SUFFIX,honkaiimpact3.com
+DOMAIN-SUFFIX,bhyyjl.com
  # 关键词
 DOMAIN-KEYWORD,hoyoverse
 DOMAIN-KEYWORD,mihoyo
@@ -38,6 +39,8 @@ DOMAIN-KEYWORD,yuanshen
 DOMAIN-KEYWORD,honkaiimpact3
 DOMAIN-KEYWORD,bh3
 DOMAIN-KEYWORD,juequling
+DOMAIN-KEYWORD,bhyyjl
+DOMAIN-KEYWORD,yyjl
  # 域名
 DOMAIN,hk-bundle-jp-mihayo.akamaized.net
 DOMAIN,hk-bigfile-jp-mihayo.akamaized.net
